@@ -1,0 +1,4 @@
+Here is a great video to learn tensors for python for machine learning:
+* Learn TensorFlow and Deep Learning fundamentals with Python Part 1/2 by Daniel Bourke.
+
+I hope you enjoy learning about tensors! 
