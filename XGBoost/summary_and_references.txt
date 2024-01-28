@@ -1,0 +1,9 @@
+## Summary and References
+
+The following topics were covered in this project:
+
+- Downloading a real-world dataset from a Kaggle competition
+- Performing feature engineering and prepare the dataset for training
+- Training and interpreting a gradient boosting model using XGBoost
+- Training with KFold cross validation and ensembling results
+- Configuring the gradient boosting model and tuning hyperparamters
