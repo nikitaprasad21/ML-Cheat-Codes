@@ -1,0 +1,96 @@
+-- Data Gathering
+  
+Data gathering is a crucial step in the data analysis and machine learning process. 
+It involves collecting relevant and meaningful data to address a specific problem or answer a particular question. 
+
+-- Data Gathering Methods:
+
+1. Surveys and Questionnaires:
+Collect data directly from individuals through surveys and questionnaires.
+Useful for gathering opinions, preferences, and demographic information.
+
+2. Web Scraping:
+Extract data from websites by parsing HTML or utilizing web scraping tools.
+Effective for obtaining publicly available data from online sources.
+
+3. APIs (Application Programming Interfaces):
+Access data from web services through APIs.
+Many online platforms provide APIs to retrieve data in a structured format.
+
+4. Sensor Data:
+Utilize sensors to collect real-time data, especially in fields like IoT (Internet of Things) and environmental monitoring.
+
+5. Observational Studies:
+Observe and record data from natural occurrences or experiments.
+Common in scientific research and social sciences.
+
+6. Public Databases:
+Access publicly available datasets provided by organizations or government agencies.
+Examples include data.gov, Kaggle datasets, and various scientific repositories.
+
+-- Most common files types used by Data Scientists or Data Anlaysts or Data Engineer.
+  
+Data scientists often work with a variety of file types depending on the nature of their tasks and the data they handle. Here are some common file types used by data scientists:
+
+1. CSV (Comma-Separated Values):
+Description: Plain text file with data separated by commas.
+Use: Widely used for storing tabular data, easy to read and write.
+
+2. Excel Files (.xlsx, .xls):
+Description: Spreadsheet files created by Microsoft Excel.
+Use: Common for data analysis and visualization.
+
+3. JSON (JavaScript Object Notation):
+Description: Lightweight data interchange format with key-value pairs.
+Use: Used for exchanging data between a server and a web application, storing configurations, and more.
+
+4. SQL Databases (e.g., .db, .sqlite):
+Description: Files associated with relational database management systems.
+Use: Essential for managing and querying structured data.
+
+5. HDF5 (Hierarchical Data Format version 5):
+Description: A file format and set of tools for managing complex data.
+Use: Commonly used in scientific and numerical computing.
+
+6. Parquet:
+Description: Columnar storage file format optimized for use with big data processing frameworks.
+Use: Efficient for reading and writing large datasets.
+
+7. Avro:
+Description: Compact binary serialization format.
+Use: Suitable for storing and exchanging complex data structures.
+
+8. Feather:
+Description: Fast, lightweight, and language-agnostic columnar data store.
+Use: Enables high-performance data interchange between languages like Python and R.
+
+9. Pickle:
+Description: Python-specific serialization format.
+Use: Used to serialize and deserialize Python objects.
+
+10. Log Files (.log):
+Description: Text files recording events or activities.
+Use: Important for debugging, monitoring, and analyzing system behavior.
+
+11. Text Files (.txt):
+Description: Simple text files.
+Use: Used for storing raw text data or documentation.
+
+12. Markdown Files (.md):
+Description: Lightweight markup language used for text formatting.
+Use: Commonly used for documenting code and analysis in a readable format.
+
+13. Image Files (e.g., .jpg, .png):
+Description: Files containing visual data.
+Use: Image analysis, computer vision, and other image-related tasks.
+
+14. Audio Files (e.g., .mp3, .wav):
+Description: Files containing audio data.
+Use: Audio analysis, speech recognition, and other audio-related tasks.
+
+15. Video Files (e.g., .mp4, .avi):
+Description: Files containing video data.
+Use: Video analysis, computer vision, and other video-related tasks.
+
+These file types cover a broad spectrum of data types and formats commonly encountered by data scientists in their work.
+The choice of file type often depends on the specific requirements of the task, the nature of the data, and the tools and frameworks being used.
