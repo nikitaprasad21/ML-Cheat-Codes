@@ -1,0 +1,22 @@
+-- Data Gathering
+
+Data gathering is a crucial step in the data analysis and machine learning process. 
+It involves collecting relevant and meaningful data to address a specific problem or answer a particular question. 
+One common and widely used format for storing structured data is the Comma-Separated Values (CSV) format.
+  
+-- CSV (Comma-Separated Values):
+
+Q. What is CSV?
+- CSV is a simple and widely used file format for storing tabular data (data in rows and columns).
+Each line of the file represents a row, and the values within a row are separated by commas.
+
+Q. Advantages of CSV:
+* Simplicity: Easy to understand and work with.
+* Compatibility: Can be opened and edited in various spreadsheet programs.
+* Interoperability: Supported by many data analysis and machine learning tools.
+
+Q. Example of CSV Data:
+Name, Age, City
+John, 25, New York
+Alice, 30, London
+Bob, 28, Paris
