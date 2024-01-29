@@ -1,0 +1,6 @@
+0,enrollee_id,city,city_development_index,gender,relevent_experience,enrolled_university,education_level,year_of_education,major_discipline,experience,company_size,company_type,last_new_job,training_hours,target
+1,8949,city_103,0.92,Male,Has relevent experience,no_enrollment,Graduate,01/06/2020,STEM,>20,,,1,36,1.0
+2,29725,city_40,0.776,Male,No relevent experience,no_enrollment,Graduate,15/10/2022,STEM,15,50-99,Pvt Ltd,>4,47,0.0
+3,11561,city_21,0.624,,No relevent experience,Full time course,Graduate,02/02/2023,STEM,5,,,never,83,0.0
+4,33241,city_115,0.789,,No relevent experience,,Graduate,03/09/2022,Business Degree,<1,,Pvt Ltd,never,52,1.0
+5,666,city_162,0.767,Male,Has relevent experience,no_enrollment,Masters,30/07/2021,STEM,>20,50-99,Funded Startup,4,8,0.0
