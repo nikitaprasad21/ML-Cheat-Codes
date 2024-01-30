@@ -1,0 +1,4569 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>3cbc1c525bbf426f97013e9beac0f6c7</title>
+  <style>
+    html {
+      line-height: 1.5;
+      font-family: Georgia, serif;
+      font-size: 20px;
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 1em;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, 'Lucida Console', Consolas, monospace;
+      font-size: 85%;
+      margin: 0;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    pre > code.sourceCode { white-space: pre; position: relative; }
+    pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+    pre > code.sourceCode > span:empty { height: 1.2em; }
+    .sourceCode { overflow: visible; }
+    code.sourceCode > span { color: inherit; text-decoration: inherit; }
+    div.sourceCode { margin: 1em 0; }
+    pre.sourceCode { margin: 0; }
+    @media screen {
+    div.sourceCode { overflow: auto; }
+    }
+    @media print {
+    pre > code.sourceCode { white-space: pre-wrap; }
+    pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+    }
+    pre.numberSource code
+      { counter-reset: source-line 0; }
+    pre.numberSource code > span
+      { position: relative; left: -4em; counter-increment: source-line; }
+    pre.numberSource code > span > a:first-child::before
+      { content: counter(source-line);
+        position: relative; left: -1em; text-align: right; vertical-align: baseline;
+        border: none; display: inline-block;
+        -webkit-touch-callout: none; -webkit-user-select: none;
+        -khtml-user-select: none; -moz-user-select: none;
+        -ms-user-select: none; user-select: none;
+        padding: 0 4px; width: 4em;
+        color: #aaaaaa;
+      }
+    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+    div.sourceCode
+      {   }
+    @media screen {
+    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+    }
+    code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+    code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+    code span.at { color: #7d9029; } /* Attribute */
+    code span.bn { color: #40a070; } /* BaseN */
+    code span.bu { color: #008000; } /* BuiltIn */
+    code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+    code span.ch { color: #4070a0; } /* Char */
+    code span.cn { color: #880000; } /* Constant */
+    code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+    code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+    code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+    code span.dt { color: #902000; } /* DataType */
+    code span.dv { color: #40a070; } /* DecVal */
+    code span.er { color: #ff0000; font-weight: bold; } /* Error */
+    code span.ex { } /* Extension */
+    code span.fl { color: #40a070; } /* Float */
+    code span.fu { color: #06287e; } /* Function */
+    code span.im { color: #008000; font-weight: bold; } /* Import */
+    code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+    code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+    code span.op { color: #666666; } /* Operator */
+    code span.ot { color: #007020; } /* Other */
+    code span.pp { color: #bc7a00; } /* Preprocessor */
+    code span.sc { color: #4070a0; } /* SpecialChar */
+    code span.ss { color: #bb6688; } /* SpecialString */
+    code span.st { color: #4070a0; } /* String */
+    code span.va { color: #19177c; } /* Variable */
+    code span.vs { color: #4070a0; } /* VerbatimString */
+    code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<div class="cell markdown">
+<h2 id="how-to-approach-machine-learning-projects">How to Approach
+Machine Learning Projects</h2>
+<p><img src="https://i.imgur.com/kKdAALX.png" /></p>
+<p>In this tutorial, we'll explore a step-by-step process for
+approaching ML problems:</p>
+<ol>
+<li>Understand the business requirements and the nature of the available
+data.</li>
+<li>Classify the problem as supervised/unsupervised and
+regression/classification.</li>
+<li>Download, clean &amp; explore the data and create new features that
+may improve models.</li>
+<li>Create training/test/validation sets and prepare the data for
+training ML models.</li>
+<li>Create a quick &amp; easy baseline model to evaluate and benchmark
+future models.</li>
+<li>Pick a modeling strategy, train a model, and tune hyperparameters to
+achieve optimal fit.</li>
+<li>Experiment and combine results from multiple strategies to get a
+better result.</li>
+<li>Interpret models, study individual predictions, and present your
+findings.</li>
+</ol>
+<h2 id="step-1---understand-business-requirements--nature-of-data">Step
+1 - Understand Business Requirements &amp; Nature of Data</h2>
+<p><img src="https://i.imgur.com/63XEArk.png" width="640"></p>
+<p>Most machine learning models are trained to serve a real-world use
+case. It's important to understand the business requirements, modeling
+objectives and the nature of the data available before you start
+building a machine learning model.</p>
+<h3 id="understanding-the-big-picture">Understanding the Big
+Picture</h3>
+<p>The first step in any machine learning problem is to read the given
+documentation, talk to various stakeholders and identify the
+following:</p>
+<ol>
+<li>What is the business problem you're trying to solve using machine
+learning?</li>
+<li>Why are we interested in solving this problem? What impact will it
+have on the business?</li>
+<li>How is this problem solved currently, without any machine learning
+tools?</li>
+<li>Who will use the results of this model, and how does it fit into
+other business processes?</li>
+<li>How much historical data do we have, and how was it collected?</li>
+<li>What features does the historical data contain? Does it contain the
+historical values for what we're trying to predict.</li>
+<li>What are some known issues with the data (data entry errors, missing
+data, differences in units etc.)</li>
+<li>Can we look at some sample rows from the dataset? How representative
+are they of the entire dataset.</li>
+<li>Where is the data stored and how will you get access to it?</li>
+<li>...</li>
+</ol>
+<p>Gather as much information about the problem as possible, so that
+you're clear understanding of the objective and feasibility of the
+project.</p>
+<h2
+id="step-2---classify-the-problem-as-supervisedunsupervised--regressionclassification">Step
+2 - Classify the problem as supervised/unsupervised &amp;
+regression/classification</h2>
+<p><img src="https://i.imgur.com/rqt2A7F.png" width="640"></p>
+<p>Here's the landscape of machine learning(<a
+href="https://medium.datadriveninvestor.com/machine-learning-in-10-minutes-354d83e5922e">source</a>):</p>
+<p><img src="https://miro.medium.com/max/842/1*tlQwBmbL6RkuuFq8OPJofw.png" width="640"></p>
+<p>Here are the topics in machine learning that we're studying in this
+course (<a
+href="https://vas3k.com/blog/machine_learning/">source</a>):</p>
+<p><img src="https://i.imgur.com/VbVFAsg.png" width="640"></p>
+<h3 id="loss-functions-and-evaluation-metrics">Loss Functions and
+Evaluation Metrics</h3>
+<p>Once you have identified the type of problem you're solving, you need
+to pick an appropriate evaluation metric. Also, depending on the kind of
+model you train, your model will also use a loss/cost function to
+optimize during the training process.</p>
+<ul>
+<li><p><strong>Evaluation metrics</strong> - they're used by humans to
+evaluate the ML model</p></li>
+<li><p><strong>Loss functions</strong> - they're used by computers to
+optimize the ML model</p></li>
+</ul>
+<p>They are often the same (e.g. RMSE for regression problems), but they
+can be different (e.g. Cross entropy and Accuracy for classification
+problems).</p>
+<p>See this article for a survey of common loss functions and evaluation
+metrics: <a
+href="https://towardsdatascience.com/11-evaluation-metrics-data-scientists-should-be-familiar-with-lessons-from-a-high-rank-kagglers-8596f75e58a7"
+class="uri">https://towardsdatascience.com/11-evaluation-metrics-data-scientists-should-be-familiar-with-lessons-from-a-high-rank-kagglers-8596f75e58a7</a></p>
+<h2
+id="step-3---download-clean--explore-the-data-and-create-new-features">Step
+3 - Download, clean &amp; explore the data and create new features</h2>
+<p><img src="https://i.imgur.com/0f7foe7.png" width="640"></p>
+<h3 id="downloading-data">Downloading Data</h3>
+<p>There may be different sources to get the data:</p>
+<ul>
+<li>CSV files</li>
+<li>SQL databases</li>
+<li>Raw File URLs</li>
+<li>Kaggle datasets</li>
+<li>Google Drive</li>
+<li>Dropbox</li>
+<li>etc.</li>
+</ul>
+<p>Identify the right tool/library to get the data.</p>
+</div>
+<div class="cell markdown">
+<h3 id="exploratory-data-analysis-and-visualization">Exploratory Data
+Analysis and Visualization</h3>
+<p>Objectives of exploratory data analysis:</p>
+<ul>
+<li>Study the distributions of individual columns (uniform, normal,
+exponential)</li>
+<li>Detect anomalies or errors in the data (e.g. missing/incorrect
+values)</li>
+<li>Study the relationship of target column with other columns (linear,
+non-linear etc.)</li>
+<li>Gather insights about the problem and the dataset</li>
+<li>Come up with ideas for preprocessing and feature engineering</li>
+</ul>
+<h3 id="feature-engineering">Feature Engineering</h3>
+<p>Feature engineer is the process of creating new features (columns) by
+transforming/combining existing features or by incorporating data from
+external sources.</p>
+<p>For example, here are some features that can be extracted from the
+"Date" column:</p>
+<ol>
+<li>Day of week</li>
+<li>Day or month</li>
+<li>Month</li>
+<li>Year</li>
+<li>Weekend/Weekday</li>
+<li>Month/Quarter End</li>
+</ol>
+<p>Using date information, we can also create new current columns
+like:</p>
+<ol>
+<li>Weather on each day</li>
+<li>Whether the date was a public holiday</li>
+<li>Whether the store was running a promotion on that day.</li>
+</ol>
+<h2
+id="step-4---create-a-trainingtestvalidation-split-and-prepare-the-data-for-training">Step
+4 - Create a training/test/validation split and prepare the data for
+training</h2>
+<p><img src="https://i.imgur.com/XZ9aP10.png" width="640"></p>
+<h3 id="traintestvalidation-split">Train/Test/Validation Split</h3>
+<p>The data already contains a test set, which contains over one month
+of data after the end of the training set. We can apply a similar
+strategy to create a validation set. We'll the last 25% of rows for the
+validation set, after ordering by date</p>
+<h3 id="input-and-target-columns">Input and Target columns</h3>
+<p>Let's also identify input and target columns. Note that we can't use
+the no. of customers as an input, because this information isn't
+available beforehand. Also, we needn't use all the available columns, we
+can start out with just a small subset.</p>
+<h3 id="imputation-scaling-and-encode">Imputation, Scaling and
+Encode</h3>
+<p>Let's impute missing data from numeric columns and scale the values
+to the <span class="math inline">(0,1)</span> range.</p>
+<p>Note that this step wasn't necessary for the store sales dataset, as
+there were no null values. Also, we can apply a different imputation
+strategy to different columns depending on their distributions (e.g.
+mean for normally distribute and median for exponentially
+distributed).</p>
+<p>Finally, let's encode categorical columns as one-hot vectors.</p>
+<p>Explore the <code>scikit-learn</code> preprocessing module: <a
+href="https://scikit-learn.org/stable/modules/preprocessing.html"
+class="uri">https://scikit-learn.org/stable/modules/preprocessing.html</a></p>
+<h2
+id="step-5---create-quick--easy-baseline-models-to-benchmark-future-models">Step
+5 - Create quick &amp; easy baseline models to benchmark future
+models</h2>
+<p><img src="https://i.imgur.com/1DLgiEz.png" width="640"></p>
+<p>A quick baseline model helps establish the minimum score any ML model
+you train should achieve.</p>
+<h3 id="fixedrandom-guess">Fixed/Random Guess</h3>
+<p>Let's define a model that always returns the mean value of Sales as
+the prediction.</p>
+<p>def return_mean(inputs): return np.full(len(inputs),
+merged_df.Sales.mean())</p>
+<p>Let's evaluate this to using the RMSE score.</p>
+<p>from sklearn.metrics import mean_squared_error</p>
+<h3 id="baseline-ml-model">Baseline ML model</h3>
+<p>Let's train a simple <code>LinearRegression</code> model, with no
+customization.</p>
+<p><code>model.fit</code> uses the following workflow for training the
+model (<a
+href="https://www.deepnetts.com/blog/from-basic-machine-learning-to-deep-learning-in-5-minutes.html">Source:
+From Basic Machine Learning to Deep Learning in 5 Minutes</a>):</p>
+<ol>
+<li>We initialize a model with random parameters (weights &amp;
+biases).</li>
+<li>We pass some inputs into the model to obtain predictions.</li>
+<li>We compare the model's predictions with the actual targets using the
+loss function.<br />
+</li>
+<li>We use an optimization technique (like least squares, gradient
+descent etc.) to reduce the loss by adjusting the weights &amp; biases
+of the model</li>
+<li>We repeat steps 1 to 4 till the predictions from the model are good
+enough.</li>
+</ol>
+<p><img src="https://www.deepnetts.com/blog/wp-content/uploads/2019/02/SupervisedLearning.png" width="480"></p>
+<p>Note that a simple linear regression model isn't much better than our
+fixed baseline model which always predicts the mean.</p>
+<p>Based on the above baselines, we now know that any model we train
+should have ideally have a RMSE score lower than $2800. This baseline
+can also be conveyed to other stakeholders to get a sense of whether the
+range of loss makes sense.</p>
+<h2
+id="step-6---pick-a-strategy-train-a-model--tune-hyperparameters">Step 6
+- Pick a strategy, train a model &amp; tune hyperparameters</h2>
+<p><img src="https://i.imgur.com/aRuE5mw.png" width="640"></p>
+<h3 id="systematically-exploring-modeling-strategies">Systematically
+Exploring Modeling Strategies</h3>
+<p>Scikit-learn offers the following cheatsheet to decide which model to
+pick.</p>
+<p><img src="https://scikit-learn.org/stable/_static/ml_map.png" /></p>
+<p>Here's the general strategy to follow:</p>
+<ul>
+<li>Find out which models are applicable to the problem you're
+solving.</li>
+<li>Train a basic version for each type of model that's applicable</li>
+<li>Identify the modeling approaches that work well and tune their
+hypeparameters</li>
+<li><a
+href="https://docs.google.com/spreadsheets/d/1S42lnklqdj4hS3BohffyvZVJOFBZJ61VDiHLMuf2zBw/edit?usp=sharing">Use
+a spreadsheet</a> to keep track of your experiments and results.</li>
+</ul>
+<p>Let's define a function <code>try_model</code>, which takes a model,
+then performs training and evaluation.</p>
+<h3 id="linear-models">Linear Models</h3>
+<p>Read about linear models here: <a
+href="https://scikit-learn.org/stable/modules/linear_model.html"
+class="uri">https://scikit-learn.org/stable/modules/linear_model.html</a></p>
+<p>from sklearn.linear_model import LinearRegression, Ridge(L2
+Regularization), Lasso(L1 Regularization), ElasticNet, SGDRegressor</p>
+<h3 id="tree-based-models">Tree Based Models</h3>
+<ul>
+<li>Decision trees: <a
+href="https://scikit-learn.org/stable/modules/tree.html"
+class="uri">https://scikit-learn.org/stable/modules/tree.html</a></li>
+<li>Random forests and gradient boosting: <a
+href="https://scikit-learn.org/stable/modules/ensemble.html"
+class="uri">https://scikit-learn.org/stable/modules/ensemble.html</a></li>
+</ul>
+<h3 id="other-supervised-learning-models">Other Supervised Learning
+Models</h3>
+<p>See <a
+href="https://scikit-learn.org/stable/supervised_learning.html"
+class="uri">https://scikit-learn.org/stable/supervised_learning.html</a></p>
+<p>Try some other supervised learning algorithms and see if you can get
+a better result.</p>
+<h3 id="unsupervised-learning-techniques">Unsupervised Learning
+Techniques</h3>
+<p>See <a
+href="https://scikit-learn.org/stable/unsupervised_learning.html"
+class="uri">https://scikit-learn.org/stable/unsupervised_learning.html</a>
+(not applicable for this problem)</p>
+<h2
+id="step-7---experiment-and-combine-results-from-multiple-strategies">Step
+7 - Experiment and combine results from multiple strategies</h2>
+<p><img src="https://i.imgur.com/ZqM6R8w.png" width="640"></p>
+<p>In general, the following strategies can be used to improve the
+performance of a model:</p>
+<ul>
+<li>Gather more data. A greater amount of data can let you learn more
+relationships and generalize the model better.</li>
+<li>Include more features. The more relevant the features for predicting
+the target, the better the model gets.</li>
+<li>Tune the hyperparameters of the model. Increase the capacity of the
+model while ensuring that it doesn't overfit.</li>
+<li>Look at the specific examples where the model make incorrect or bad
+predictions and gather some insights</li>
+<li>Try strategies like grid search for hyperparameter optimization and
+K-fold cross validation</li>
+<li>Combine results from different types of models (ensembling), or
+train another model using their results.</li>
+</ul>
+<h3 id="hyperparameter-optimization--grid-search">Hyperparameter
+Optimization &amp; Grid Search</h3>
+<p>You can tune hyperparameters manually, our use an automated tuning
+strategy like random search or Grid search. Follow this tutorial for
+hyperparameter tuning using Grid search: <a
+href="https://machinelearningmastery.com/hyperparameter-optimization-with-random-search-and-grid-search/"
+class="uri">https://machinelearningmastery.com/hyperparameter-optimization-with-random-search-and-grid-search/</a></p>
+<p><img src="https://i.imgur.com/EJCrSZw.png" width="480"></p>
+<h3 id="k-fold-cross-validation">K-Fold Cross Validation</h3>
+<ul>
+<li>Apply K fold cross validation for the random forest regressor
+trained earlier.</li>
+</ul>
+<p>Here's what K-fold cross validation looks like visually (<a
+href="https://vitalflux.com/k-fold-cross-validation-python-example/">source</a>):</p>
+<p><img src="https://i.imgur.com/MxnzWwT.png" width="480"></p>
+<p>Follow this tutorial to apply K-fold cross validation: <a
+href="https://machinelearningmastery.com/repeated-k-fold-cross-validation-with-python/"
+class="uri">https://machinelearningmastery.com/repeated-k-fold-cross-validation-with-python/</a></p>
+<h3 id="ensembling-and-stacking">Ensembling and Stacking</h3>
+<p>Ensembling refers to combining the results of multiple models. Here's
+what ensembling looks like visually(<a
+href="https://www.kdnuggets.com/2019/01/ensemble-learning-5-main-approaches.html">source</a>):</p>
+<p><img src="https://i.imgur.com/rrOKVEd.png" width="480"></p>
+<p>Stacking is a more advanced version of ensembling, where we train
+another model using the results from multiple models. Here's what
+stacking looks like visually (<a
+href="https://medium.com/ml-research-lab/stacking-ensemble-meta-algorithms-for-improve-predictions-f4b4cf3b9237">source</a>):</p>
+<p><img src="https://i.imgur.com/VVzCWNB.png" width="400"></p>
+<p>Here's a tutorial on stacking: <a
+href="https://machinelearningmastery.com/stacking-ensemble-machine-learning-with-python/"
+class="uri">https://machinelearningmastery.com/stacking-ensemble-machine-learning-with-python/</a></p>
+<h2
+id="step-8---interpret-models-study-individual-predictions--present-your-findings">Step
+8 - Interpret models, study individual predictions &amp; present your
+findings</h2>
+<p><img src="https://i.imgur.com/9axhOrA.png" width="640"></p>
+<h3 id="feature-importance">Feature Importance</h3>
+<p>You'll need to explain why your model returns a particular result.
+Most scikit-learn models offer some kind of "feature importance"
+score.</p>
+<p>rf.feature_importances_</p>
+<p>importance_df = pd.DataFrame({ 'feature': numeric_cols+encoded_cols,
+'importance': rf.feature_importances_ }).sort_values('importance',
+ascending=False) importance_df.head(10)</p>
+<p>sns.barplot(data=importance_df.head(10), x='importance',
+y='feature');</p>
+<p>The above chart can be presented to non-technical stakeholders to
+explain how the model arrives at its result. For greater explainability,
+a single decision tree can be used.</p>
+<h3 id="presenting-your-results">Presenting your results</h3>
+<ul>
+<li>Create a presentation for non-technical stakeholders</li>
+<li>Understand your audience - figure out what they care about most</li>
+<li>Avoid showing any code or technical jargon, include
+visualizations</li>
+<li>Focus on metrics that are relevant for the business</li>
+<li>Talk about feature importance and how to interpret results</li>
+<li>Explain the strengths and limitations of the model</li>
+<li>Explain how the model can be improved over time</li>
+</ul>
+<h3 id="model-deployment">Model Deployment</h3>
+<p>At this point, the model can be handed over to a software developer /
+ML engineer who can put the model into production, as part of an
+existing software system. It's important to monitor the results of the
+model, and make improvements from time to time.</p>
+<p>Check out this tutorial on how to deploy a model to the Heroku
+platform using the Flask framework: <a
+href="https://towardsdatascience.com/create-an-api-to-deploy-machine-learning-models-using-flask-and-heroku-67a011800c50"
+class="uri">https://towardsdatascience.com/create-an-api-to-deploy-machine-learning-models-using-flask-and-heroku-67a011800c50</a></p>
+</div>
+<section id="problem-statement" class="cell markdown">
+<h3>Problem Statement</h3>
+<p>Rossmann operates over 3,000 drug stores in 7 European countries.
+Currently, Rossmann store managers are tasked with predicting their
+daily sales for up to six weeks in advance. Store sales are influenced
+by many factors, including promotions, competition, school and state
+holidays, seasonality, and locality.</p>
+<p>With thousands of individual managers predicting sales based on their
+unique circumstances, the accuracy of results can be quite varied. You
+are provided with historical sales data for 1,115 Rossmann stores. The
+task is to forecast the "Sales" column for the test set. Note that some
+stores in the dataset were temporarily closed for refurbishment.</p>
+</section>
+<section id="loading-datasets" class="cell markdown">
+<h3>Loading Datasets</h3>
+</section>
+<div class="cell markdown">
+<ul>
+<li>We are working with Rossman Dataset</li>
+</ul>
+<p>Most of the fields are self-explanatory. The following are
+descriptions for those that aren't.</p>
+<p>Data fields</p>
+<ul>
+<li>Id - an Id that represents a (Store, Date) duple within the test
+set</li>
+<li>Store - a unique Id for each store</li>
+<li>Sales - the turnover for any given day (this is what you are
+predicting)</li>
+<li>Customers - the number of customers on a given day</li>
+<li>Open - an indicator for whether the store was open: 0 = closed, 1 =
+open</li>
+<li>StateHoliday - indicates a state holiday. Normally all stores, with
+few exceptions, are closed on state holidays. Note that all schools are
+closed on public holidays and weekends. a = public holiday, b = Easter
+holiday, c = Christmas, 0 = None</li>
+<li>SchoolHoliday - indicates if the (Store, Date) was affected by the
+closure of public schools</li>
+<li>StoreType - differentiates between 4 different store models: a, b,
+c, d</li>
+<li>Assortment - describes an assortment level: a = basic, b = extra, c
+= extended</li>
+<li>CompetitionDistance - distance in meters to the nearest competitor
+store</li>
+<li>CompetitionOpenSince[Month/Year] - gives the approximate year and
+month of the time the nearest competitor was opened</li>
+<li>Promo - indicates whether a store is running a promo on that
+day</li>
+<li>Promo2 - Promo2 is a continuing and consecutive promotion for some
+stores: 0 = store is not participating, 1 = store is participating</li>
+<li>Promo2Since[Year/Week] - describes the year and calendar week when
+the store started participating in Promo2</li>
+<li>PromoInterval - describes the consecutive intervals Promo2 is
+started, naming the months the promotion is started anew. E.g.
+"Feb,May,Aug,Nov" means each round starts in February, May, August,
+November of any given year for that store</li>
+</ul>
+</div>
+<div class="cell code" data-execution_count="1">
+<div class="sourceCode" id="cb1"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>store_data <span class="op">=</span> pd.read_csv(<span class="st">&quot;store.csv&quot;</span>)</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>store_data.head(<span class="dv">5</span>)</span></code></pre></div>
+<div class="output execute_result" data-execution_count="1">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Store</th>
+      <th>StoreType</th>
+      <th>Assortment</th>
+      <th>CompetitionDistance</th>
+      <th>CompetitionOpenSinceMonth</th>
+      <th>CompetitionOpenSinceYear</th>
+      <th>Promo2</th>
+      <th>Promo2SinceWeek</th>
+      <th>Promo2SinceYear</th>
+      <th>PromoInterval</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>1</td>
+      <td>c</td>
+      <td>a</td>
+      <td>1270.0</td>
+      <td>9.0</td>
+      <td>2008.0</td>
+      <td>0</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>2</td>
+      <td>a</td>
+      <td>a</td>
+      <td>570.0</td>
+      <td>11.0</td>
+      <td>2007.0</td>
+      <td>1</td>
+      <td>13.0</td>
+      <td>2010.0</td>
+      <td>Jan,Apr,Jul,Oct</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>3</td>
+      <td>a</td>
+      <td>a</td>
+      <td>14130.0</td>
+      <td>12.0</td>
+      <td>2006.0</td>
+      <td>1</td>
+      <td>14.0</td>
+      <td>2011.0</td>
+      <td>Jan,Apr,Jul,Oct</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>4</td>
+      <td>c</td>
+      <td>c</td>
+      <td>620.0</td>
+      <td>9.0</td>
+      <td>2009.0</td>
+      <td>0</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>5</td>
+      <td>a</td>
+      <td>a</td>
+      <td>29910.0</td>
+      <td>4.0</td>
+      <td>2015.0</td>
+      <td>0</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+</div>
+<div class="cell code" data-execution_count="2">
+<div class="sourceCode" id="cb2"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>train_data <span class="op">=</span> pd.read_csv(<span class="st">&quot;train.csv&quot;</span>)</span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>train_data.head(<span class="dv">5</span>)</span></code></pre></div>
+<div class="output stream stderr">
+<pre><code>C:\Users\lenovo\AppData\Local\Temp\ipykernel_20376\1925426325.py:1: DtypeWarning: Columns (7) have mixed types. Specify dtype option on import or set low_memory=False.
+  train_data = pd.read_csv(&quot;train.csv&quot;)
+</code></pre>
+</div>
+<div class="output execute_result" data-execution_count="2">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Store</th>
+      <th>DayOfWeek</th>
+      <th>Date</th>
+      <th>Sales</th>
+      <th>Customers</th>
+      <th>Open</th>
+      <th>Promo</th>
+      <th>StateHoliday</th>
+      <th>SchoolHoliday</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>1</td>
+      <td>5</td>
+      <td>2015-07-31</td>
+      <td>5263</td>
+      <td>555</td>
+      <td>1</td>
+      <td>1</td>
+      <td>0</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>2</td>
+      <td>5</td>
+      <td>2015-07-31</td>
+      <td>6064</td>
+      <td>625</td>
+      <td>1</td>
+      <td>1</td>
+      <td>0</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>3</td>
+      <td>5</td>
+      <td>2015-07-31</td>
+      <td>8314</td>
+      <td>821</td>
+      <td>1</td>
+      <td>1</td>
+      <td>0</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>4</td>
+      <td>5</td>
+      <td>2015-07-31</td>
+      <td>13995</td>
+      <td>1498</td>
+      <td>1</td>
+      <td>1</td>
+      <td>0</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>5</td>
+      <td>5</td>
+      <td>2015-07-31</td>
+      <td>4822</td>
+      <td>559</td>
+      <td>1</td>
+      <td>1</td>
+      <td>0</td>
+      <td>1</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+</div>
+<div class="cell code" data-execution_count="3">
+<div class="sourceCode" id="cb4"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a>test_data <span class="op">=</span> pd.read_csv(<span class="st">&quot;test.csv&quot;</span>)</span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a>test_data <span class="op">=</span> test_data.drop(columns<span class="op">=</span> <span class="st">&quot;Id&quot;</span>)</span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a>test_data</span></code></pre></div>
+<div class="output execute_result" data-execution_count="3">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Store</th>
+      <th>DayOfWeek</th>
+      <th>Date</th>
+      <th>Open</th>
+      <th>Promo</th>
+      <th>StateHoliday</th>
+      <th>SchoolHoliday</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>1</td>
+      <td>4</td>
+      <td>2015-09-17</td>
+      <td>1.0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>3</td>
+      <td>4</td>
+      <td>2015-09-17</td>
+      <td>1.0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>7</td>
+      <td>4</td>
+      <td>2015-09-17</td>
+      <td>1.0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>8</td>
+      <td>4</td>
+      <td>2015-09-17</td>
+      <td>1.0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>9</td>
+      <td>4</td>
+      <td>2015-09-17</td>
+      <td>1.0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>...</th>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+    </tr>
+    <tr>
+      <th>41083</th>
+      <td>1111</td>
+      <td>6</td>
+      <td>2015-08-01</td>
+      <td>1.0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>41084</th>
+      <td>1112</td>
+      <td>6</td>
+      <td>2015-08-01</td>
+      <td>1.0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>41085</th>
+      <td>1113</td>
+      <td>6</td>
+      <td>2015-08-01</td>
+      <td>1.0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>41086</th>
+      <td>1114</td>
+      <td>6</td>
+      <td>2015-08-01</td>
+      <td>1.0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>41087</th>
+      <td>1115</td>
+      <td>6</td>
+      <td>2015-08-01</td>
+      <td>1.0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+    </tr>
+  </tbody>
+</table>
+<p>41088 rows × 7 columns</p>
+</div>
+</div>
+</div>
+<div class="cell markdown">
+<p>We can merge the two data frames to get a richer set of features for
+each row of the training set.</p>
+</div>
+<div class="cell code" data-execution_count="4">
+<div class="sourceCode" id="cb5"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a>merged_train_data <span class="op">=</span> train_data.merge(store_data, how <span class="op">=</span> <span class="st">&quot;left&quot;</span>, on<span class="op">=</span><span class="st">&quot;Store&quot;</span>)</span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a>merged_train_data</span></code></pre></div>
+<div class="output execute_result" data-execution_count="4">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Store</th>
+      <th>DayOfWeek</th>
+      <th>Date</th>
+      <th>Sales</th>
+      <th>Customers</th>
+      <th>Open</th>
+      <th>Promo</th>
+      <th>StateHoliday</th>
+      <th>SchoolHoliday</th>
+      <th>StoreType</th>
+      <th>Assortment</th>
+      <th>CompetitionDistance</th>
+      <th>CompetitionOpenSinceMonth</th>
+      <th>CompetitionOpenSinceYear</th>
+      <th>Promo2</th>
+      <th>Promo2SinceWeek</th>
+      <th>Promo2SinceYear</th>
+      <th>PromoInterval</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>1</td>
+      <td>5</td>
+      <td>2015-07-31</td>
+      <td>5263</td>
+      <td>555</td>
+      <td>1</td>
+      <td>1</td>
+      <td>0</td>
+      <td>1</td>
+      <td>c</td>
+      <td>a</td>
+      <td>1270.0</td>
+      <td>9.0</td>
+      <td>2008.0</td>
+      <td>0</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>2</td>
+      <td>5</td>
+      <td>2015-07-31</td>
+      <td>6064</td>
+      <td>625</td>
+      <td>1</td>
+      <td>1</td>
+      <td>0</td>
+      <td>1</td>
+      <td>a</td>
+      <td>a</td>
+      <td>570.0</td>
+      <td>11.0</td>
+      <td>2007.0</td>
+      <td>1</td>
+      <td>13.0</td>
+      <td>2010.0</td>
+      <td>Jan,Apr,Jul,Oct</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>3</td>
+      <td>5</td>
+      <td>2015-07-31</td>
+      <td>8314</td>
+      <td>821</td>
+      <td>1</td>
+      <td>1</td>
+      <td>0</td>
+      <td>1</td>
+      <td>a</td>
+      <td>a</td>
+      <td>14130.0</td>
+      <td>12.0</td>
+      <td>2006.0</td>
+      <td>1</td>
+      <td>14.0</td>
+      <td>2011.0</td>
+      <td>Jan,Apr,Jul,Oct</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>4</td>
+      <td>5</td>
+      <td>2015-07-31</td>
+      <td>13995</td>
+      <td>1498</td>
+      <td>1</td>
+      <td>1</td>
+      <td>0</td>
+      <td>1</td>
+      <td>c</td>
+      <td>c</td>
+      <td>620.0</td>
+      <td>9.0</td>
+      <td>2009.0</td>
+      <td>0</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>5</td>
+      <td>5</td>
+      <td>2015-07-31</td>
+      <td>4822</td>
+      <td>559</td>
+      <td>1</td>
+      <td>1</td>
+      <td>0</td>
+      <td>1</td>
+      <td>a</td>
+      <td>a</td>
+      <td>29910.0</td>
+      <td>4.0</td>
+      <td>2015.0</td>
+      <td>0</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>...</th>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+    </tr>
+    <tr>
+      <th>1017204</th>
+      <td>1111</td>
+      <td>2</td>
+      <td>2013-01-01</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>a</td>
+      <td>1</td>
+      <td>a</td>
+      <td>a</td>
+      <td>1900.0</td>
+      <td>6.0</td>
+      <td>2014.0</td>
+      <td>1</td>
+      <td>31.0</td>
+      <td>2013.0</td>
+      <td>Jan,Apr,Jul,Oct</td>
+    </tr>
+    <tr>
+      <th>1017205</th>
+      <td>1112</td>
+      <td>2</td>
+      <td>2013-01-01</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>a</td>
+      <td>1</td>
+      <td>c</td>
+      <td>c</td>
+      <td>1880.0</td>
+      <td>4.0</td>
+      <td>2006.0</td>
+      <td>0</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>1017206</th>
+      <td>1113</td>
+      <td>2</td>
+      <td>2013-01-01</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>a</td>
+      <td>1</td>
+      <td>a</td>
+      <td>c</td>
+      <td>9260.0</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>0</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>1017207</th>
+      <td>1114</td>
+      <td>2</td>
+      <td>2013-01-01</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>a</td>
+      <td>1</td>
+      <td>a</td>
+      <td>c</td>
+      <td>870.0</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>0</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>1017208</th>
+      <td>1115</td>
+      <td>2</td>
+      <td>2013-01-01</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>a</td>
+      <td>1</td>
+      <td>d</td>
+      <td>c</td>
+      <td>5350.0</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>1</td>
+      <td>22.0</td>
+      <td>2012.0</td>
+      <td>Mar,Jun,Sept,Dec</td>
+    </tr>
+  </tbody>
+</table>
+<p>1017209 rows × 18 columns</p>
+</div>
+</div>
+</div>
+<div class="cell markdown">
+<p>Let's do for test dataset also.</p>
+</div>
+<div class="cell code" data-execution_count="5">
+<div class="sourceCode" id="cb6"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a>merged_test_data <span class="op">=</span> test_data.merge(store_data, how<span class="op">=</span> <span class="st">&#39;left&#39;</span>, on<span class="op">=</span> <span class="st">&quot;Store&quot;</span>)</span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a>merged_test_data</span></code></pre></div>
+<div class="output execute_result" data-execution_count="5">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Store</th>
+      <th>DayOfWeek</th>
+      <th>Date</th>
+      <th>Open</th>
+      <th>Promo</th>
+      <th>StateHoliday</th>
+      <th>SchoolHoliday</th>
+      <th>StoreType</th>
+      <th>Assortment</th>
+      <th>CompetitionDistance</th>
+      <th>CompetitionOpenSinceMonth</th>
+      <th>CompetitionOpenSinceYear</th>
+      <th>Promo2</th>
+      <th>Promo2SinceWeek</th>
+      <th>Promo2SinceYear</th>
+      <th>PromoInterval</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>1</td>
+      <td>4</td>
+      <td>2015-09-17</td>
+      <td>1.0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>c</td>
+      <td>a</td>
+      <td>1270.0</td>
+      <td>9.0</td>
+      <td>2008.0</td>
+      <td>0</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>3</td>
+      <td>4</td>
+      <td>2015-09-17</td>
+      <td>1.0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>a</td>
+      <td>a</td>
+      <td>14130.0</td>
+      <td>12.0</td>
+      <td>2006.0</td>
+      <td>1</td>
+      <td>14.0</td>
+      <td>2011.0</td>
+      <td>Jan,Apr,Jul,Oct</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>7</td>
+      <td>4</td>
+      <td>2015-09-17</td>
+      <td>1.0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>a</td>
+      <td>c</td>
+      <td>24000.0</td>
+      <td>4.0</td>
+      <td>2013.0</td>
+      <td>0</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>8</td>
+      <td>4</td>
+      <td>2015-09-17</td>
+      <td>1.0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>a</td>
+      <td>a</td>
+      <td>7520.0</td>
+      <td>10.0</td>
+      <td>2014.0</td>
+      <td>0</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>9</td>
+      <td>4</td>
+      <td>2015-09-17</td>
+      <td>1.0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>a</td>
+      <td>c</td>
+      <td>2030.0</td>
+      <td>8.0</td>
+      <td>2000.0</td>
+      <td>0</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>...</th>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+    </tr>
+    <tr>
+      <th>41083</th>
+      <td>1111</td>
+      <td>6</td>
+      <td>2015-08-01</td>
+      <td>1.0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>a</td>
+      <td>a</td>
+      <td>1900.0</td>
+      <td>6.0</td>
+      <td>2014.0</td>
+      <td>1</td>
+      <td>31.0</td>
+      <td>2013.0</td>
+      <td>Jan,Apr,Jul,Oct</td>
+    </tr>
+    <tr>
+      <th>41084</th>
+      <td>1112</td>
+      <td>6</td>
+      <td>2015-08-01</td>
+      <td>1.0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>c</td>
+      <td>c</td>
+      <td>1880.0</td>
+      <td>4.0</td>
+      <td>2006.0</td>
+      <td>0</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>41085</th>
+      <td>1113</td>
+      <td>6</td>
+      <td>2015-08-01</td>
+      <td>1.0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>a</td>
+      <td>c</td>
+      <td>9260.0</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>0</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>41086</th>
+      <td>1114</td>
+      <td>6</td>
+      <td>2015-08-01</td>
+      <td>1.0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>a</td>
+      <td>c</td>
+      <td>870.0</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>0</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>41087</th>
+      <td>1115</td>
+      <td>6</td>
+      <td>2015-08-01</td>
+      <td>1.0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>d</td>
+      <td>c</td>
+      <td>5350.0</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>1</td>
+      <td>22.0</td>
+      <td>2012.0</td>
+      <td>Mar,Jun,Sept,Dec</td>
+    </tr>
+  </tbody>
+</table>
+<p>41088 rows × 16 columns</p>
+</div>
+</div>
+</div>
+<section id="exploratory-data-analysis-and-visualization"
+class="cell markdown">
+<h3>Exploratory Data Analysis and Visualization</h3>
+</section>
+<section id="1-cleaning-data" class="cell markdown">
+<h3>1. Cleaning Data</h3>
+<p>The first step is to check the column data types and identify if
+there are any null values. Or any Duplicate values.</p>
+<p>Missing data includes None, NaN, Null . When we are dealing with
+missing values using Pandas, we don’t need to differentiate them because
+Pandas use NaN internally for simplicity. However, it’s better to have a
+deeper understanding of it.</p>
+<ul>
+<li><p>NaN: Not a Number NaN is a missing floating-point value, a
+special value that is part of the IEEE floating-point
+specification.</p></li>
+<li><p>None: A Python Object None is a Python Object called
+NoneType.</p></li>
+<li><p>Null: Python uses None in place of null Null is a value which you
+can use when you yourself want assign a empty value to a
+variable.</p></li>
+</ul>
+</section>
+<div class="cell code" data-execution_count="6">
+<div class="sourceCode" id="cb7"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="co"># It displays a summary of the dataset, including the number of rows and columns, </span></span>
+<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a><span class="co"># the column names, and the data types of each column.</span></span>
+<span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a>merged_train_data.info()</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>&lt;class &#39;pandas.core.frame.DataFrame&#39;&gt;
+Int64Index: 1017209 entries, 0 to 1017208
+Data columns (total 18 columns):
+ #   Column                     Non-Null Count    Dtype  
+---  ------                     --------------    -----  
+ 0   Store                      1017209 non-null  int64  
+ 1   DayOfWeek                  1017209 non-null  int64  
+ 2   Date                       1017209 non-null  object 
+ 3   Sales                      1017209 non-null  int64  
+ 4   Customers                  1017209 non-null  int64  
+ 5   Open                       1017209 non-null  int64  
+ 6   Promo                      1017209 non-null  int64  
+ 7   StateHoliday               1017209 non-null  object 
+ 8   SchoolHoliday              1017209 non-null  int64  
+ 9   StoreType                  1017209 non-null  object 
+ 10  Assortment                 1017209 non-null  object 
+ 11  CompetitionDistance        1014567 non-null  float64
+ 12  CompetitionOpenSinceMonth  693861 non-null   float64
+ 13  CompetitionOpenSinceYear   693861 non-null   float64
+ 14  Promo2                     1017209 non-null  int64  
+ 15  Promo2SinceWeek            509178 non-null   float64
+ 16  Promo2SinceYear            509178 non-null   float64
+ 17  PromoInterval              509178 non-null   object 
+dtypes: float64(5), int64(8), object(5)
+memory usage: 147.5+ MB
+</code></pre>
+</div>
+</div>
+<div class="cell markdown">
+<p>It appears that there are many null values almost 50% data are numm
+in some columns.</p>
+<p>Understanding these categories will give you with some insights into
+how to approach the missing value(s) in your dataset.</p>
+<p>Among the categories are:</p>
+<ul>
+<li>Missing Completely at Random (MCAR).: You cannot predict whether the
+value was missing due to specific circumstances or not.</li>
+<li>Missing at Random (MAR).: Data are missing at random but not
+completely missing.</li>
+<li>Not Missing at Random (NMAR).: D ata that are not missing at random
+and are also known as ignorable data.</li>
+</ul>
+<p>Methods to deal with null values are:</p>
+<ol>
+<li>Deleting the Missing Values.</li>
+<li>Imputing the 3M's i.e. Mean, Median or Mode in place of Missing
+Values .</li>
+<li>Imputing the Missing Values for Categorical Features.</li>
+<li>Imputing the Missing Values using Sci-kit Learn Library.</li>
+<li>Using “Missingness” as a Feature.</li>
+</ol>
+</div>
+<div class="cell code" data-execution_count="7">
+<div class="sourceCode" id="cb9"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="co"># rounding the values in the transposed summary statistics of the `merged_train_data` DataFrame to two decimal places.</span></span>
+<span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a><span class="bu">round</span>(merged_train_data.describe().T,<span class="dv">2</span>)</span></code></pre></div>
+<div class="output execute_result" data-execution_count="7">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>count</th>
+      <th>mean</th>
+      <th>std</th>
+      <th>min</th>
+      <th>25%</th>
+      <th>50%</th>
+      <th>75%</th>
+      <th>max</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>Store</th>
+      <td>1017209.0</td>
+      <td>558.43</td>
+      <td>321.91</td>
+      <td>1.0</td>
+      <td>280.0</td>
+      <td>558.0</td>
+      <td>838.0</td>
+      <td>1115.0</td>
+    </tr>
+    <tr>
+      <th>DayOfWeek</th>
+      <td>1017209.0</td>
+      <td>4.00</td>
+      <td>2.00</td>
+      <td>1.0</td>
+      <td>2.0</td>
+      <td>4.0</td>
+      <td>6.0</td>
+      <td>7.0</td>
+    </tr>
+    <tr>
+      <th>Sales</th>
+      <td>1017209.0</td>
+      <td>5773.82</td>
+      <td>3849.93</td>
+      <td>0.0</td>
+      <td>3727.0</td>
+      <td>5744.0</td>
+      <td>7856.0</td>
+      <td>41551.0</td>
+    </tr>
+    <tr>
+      <th>Customers</th>
+      <td>1017209.0</td>
+      <td>633.15</td>
+      <td>464.41</td>
+      <td>0.0</td>
+      <td>405.0</td>
+      <td>609.0</td>
+      <td>837.0</td>
+      <td>7388.0</td>
+    </tr>
+    <tr>
+      <th>Open</th>
+      <td>1017209.0</td>
+      <td>0.83</td>
+      <td>0.38</td>
+      <td>0.0</td>
+      <td>1.0</td>
+      <td>1.0</td>
+      <td>1.0</td>
+      <td>1.0</td>
+    </tr>
+    <tr>
+      <th>Promo</th>
+      <td>1017209.0</td>
+      <td>0.38</td>
+      <td>0.49</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>1.0</td>
+      <td>1.0</td>
+    </tr>
+    <tr>
+      <th>SchoolHoliday</th>
+      <td>1017209.0</td>
+      <td>0.18</td>
+      <td>0.38</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>1.0</td>
+    </tr>
+    <tr>
+      <th>CompetitionDistance</th>
+      <td>1014567.0</td>
+      <td>5430.09</td>
+      <td>7715.32</td>
+      <td>20.0</td>
+      <td>710.0</td>
+      <td>2330.0</td>
+      <td>6890.0</td>
+      <td>75860.0</td>
+    </tr>
+    <tr>
+      <th>CompetitionOpenSinceMonth</th>
+      <td>693861.0</td>
+      <td>7.22</td>
+      <td>3.21</td>
+      <td>1.0</td>
+      <td>4.0</td>
+      <td>8.0</td>
+      <td>10.0</td>
+      <td>12.0</td>
+    </tr>
+    <tr>
+      <th>CompetitionOpenSinceYear</th>
+      <td>693861.0</td>
+      <td>2008.69</td>
+      <td>5.99</td>
+      <td>1900.0</td>
+      <td>2006.0</td>
+      <td>2010.0</td>
+      <td>2013.0</td>
+      <td>2015.0</td>
+    </tr>
+    <tr>
+      <th>Promo2</th>
+      <td>1017209.0</td>
+      <td>0.50</td>
+      <td>0.50</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>1.0</td>
+      <td>1.0</td>
+      <td>1.0</td>
+    </tr>
+    <tr>
+      <th>Promo2SinceWeek</th>
+      <td>509178.0</td>
+      <td>23.27</td>
+      <td>14.10</td>
+      <td>1.0</td>
+      <td>13.0</td>
+      <td>22.0</td>
+      <td>37.0</td>
+      <td>50.0</td>
+    </tr>
+    <tr>
+      <th>Promo2SinceYear</th>
+      <td>509178.0</td>
+      <td>2011.75</td>
+      <td>1.66</td>
+      <td>2009.0</td>
+      <td>2011.0</td>
+      <td>2012.0</td>
+      <td>2013.0</td>
+      <td>2015.0</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+</div>
+<div class="cell markdown">
+<p>These ranges seems reasonable as there is no abnormality in
+dataset.</p>
+<ul>
+<li><p>For example, we can see our min sales is 0, hence we have
+positive sales, as there are no negative values. So no negative sales.
+Which is good.</p></li>
+<li><p>But, as a DA or DS we have to look on each aspects carefully, as
+what are the reason that there is -ve sale on a particular day maybe
+there was a huge recall of particular kind of product you were selling
+because of some issue or side effect. Everyone was facing it that why
+they came to return it or replace the product and no sales were
+made.</p></li>
+<li><p>Point is there can be any reason it either depends on the sales
+man perspective or insights and your domain knowledge.</p></li>
+<li><p>Most importantly if this is the case then you have to exclude
+that data because that is not the represenatative of what happens on a
+general day to day basis. So this can cause bias in the
+dataset.</p></li>
+<li><p>Thirdly, 0 is an interesting value that why there is 0 zero on a
+particular day, maybe because the store is not open on those days due to
+hoildays. This depends on the stakeholders that do we need to include
+this zero sales in the model or handle as a special case. Because it
+seems that it is total waste of time and gpu when "Open" = 0 and "Sales"
+= 0.</p></li>
+</ul>
+</div>
+<div class="cell code" data-execution_count="8">
+<div class="sourceCode" id="cb10"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Checking duplicate data</span></span>
+<span id="cb10-2"><a href="#cb10-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb10-3"><a href="#cb10-3" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;There are&quot;</span>, merged_train_data.duplicated().<span class="bu">sum</span>(), <span class="st">&quot;duplicated data.&quot;</span>)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>There are 0 duplicated data.
+</code></pre>
+</div>
+</div>
+<div class="cell markdown">
+<p>Removing or keeping dupllicate data solely depends on problem
+statement and stakeholders.</p>
+</div>
+<div class="cell code" data-execution_count="9">
+<div class="sourceCode" id="cb12"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a><span class="co"># parsing the date column</span></span>
+<span id="cb12-2"><a href="#cb12-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-3"><a href="#cb12-3" aria-hidden="true" tabindex="-1"></a>merged_train_data[<span class="st">&quot;Date&quot;</span>] <span class="op">=</span> pd.to_datetime(merged_train_data.Date)</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="10">
+<div class="sourceCode" id="cb13"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a>merged_train_data.Date.<span class="bu">min</span>(), merged_train_data.Date.<span class="bu">max</span>()</span></code></pre></div>
+<div class="output execute_result" data-execution_count="10">
+<pre><code>(Timestamp(&#39;2013-01-01 00:00:00&#39;), Timestamp(&#39;2015-07-31 00:00:00&#39;))</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="11">
+<div class="sourceCode" id="cb15"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Similarly for test dataset</span></span>
+<span id="cb15-2"><a href="#cb15-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb15-3"><a href="#cb15-3" aria-hidden="true" tabindex="-1"></a>merged_test_data[<span class="st">&quot;Date&quot;</span>] <span class="op">=</span> pd.to_datetime(merged_test_data.Date)</span>
+<span id="cb15-4"><a href="#cb15-4" aria-hidden="true" tabindex="-1"></a>merged_test_data.Date.<span class="bu">min</span>(), merged_test_data.Date.<span class="bu">max</span>()</span></code></pre></div>
+<div class="output execute_result" data-execution_count="11">
+<pre><code>(Timestamp(&#39;2015-08-01 00:00:00&#39;), Timestamp(&#39;2015-09-17 00:00:00&#39;))</code></pre>
+</div>
+</div>
+<div class="cell markdown">
+<p>Conclusion made are:</p>
+<ul>
+<li><p>We are working with correct data as we are training are model
+based on datasets of 2013 and 2015(july) whereas the test will be done
+on future data i.e. data of 2015 (aug-sept).</p></li>
+<li><p>We are testing on a dataset of only a month and half, which
+cannot be a good predictor of the model's performance in the real world.
+According to me test should be perdorm on atleast a year of data for
+better modeling of data.</p></li>
+<li><p>Or you can just go and discuss to your manager about the shortage
+of dataset and its right distribution/split of testa and test or that
+what if we only make a model that predict the output of one and the half
+month and this will go for a year. And once we have a year data we can
+build another model to make predictions of the year data.</p></li>
+</ul>
+</div>
+<div class="cell markdown">
+<p>To make our modeling simple, let's simply exclude the dates when the
+store was closed (we can handle it as a special case while making
+predictions).</p>
+</div>
+<div class="cell code" data-execution_count="12">
+<div class="sourceCode" id="cb17"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb17-1"><a href="#cb17-1" aria-hidden="true" tabindex="-1"></a>merged_train_data <span class="op">=</span> merged_train_data[merged_train_data.Open <span class="op">==</span> <span class="dv">1</span>].copy()</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="13">
+<div class="sourceCode" id="cb18"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb18-1"><a href="#cb18-1" aria-hidden="true" tabindex="-1"></a>merged_train_data</span></code></pre></div>
+<div class="output execute_result" data-execution_count="13">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Store</th>
+      <th>DayOfWeek</th>
+      <th>Date</th>
+      <th>Sales</th>
+      <th>Customers</th>
+      <th>Open</th>
+      <th>Promo</th>
+      <th>StateHoliday</th>
+      <th>SchoolHoliday</th>
+      <th>StoreType</th>
+      <th>Assortment</th>
+      <th>CompetitionDistance</th>
+      <th>CompetitionOpenSinceMonth</th>
+      <th>CompetitionOpenSinceYear</th>
+      <th>Promo2</th>
+      <th>Promo2SinceWeek</th>
+      <th>Promo2SinceYear</th>
+      <th>PromoInterval</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>1</td>
+      <td>5</td>
+      <td>2015-07-31</td>
+      <td>5263</td>
+      <td>555</td>
+      <td>1</td>
+      <td>1</td>
+      <td>0</td>
+      <td>1</td>
+      <td>c</td>
+      <td>a</td>
+      <td>1270.0</td>
+      <td>9.0</td>
+      <td>2008.0</td>
+      <td>0</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>2</td>
+      <td>5</td>
+      <td>2015-07-31</td>
+      <td>6064</td>
+      <td>625</td>
+      <td>1</td>
+      <td>1</td>
+      <td>0</td>
+      <td>1</td>
+      <td>a</td>
+      <td>a</td>
+      <td>570.0</td>
+      <td>11.0</td>
+      <td>2007.0</td>
+      <td>1</td>
+      <td>13.0</td>
+      <td>2010.0</td>
+      <td>Jan,Apr,Jul,Oct</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>3</td>
+      <td>5</td>
+      <td>2015-07-31</td>
+      <td>8314</td>
+      <td>821</td>
+      <td>1</td>
+      <td>1</td>
+      <td>0</td>
+      <td>1</td>
+      <td>a</td>
+      <td>a</td>
+      <td>14130.0</td>
+      <td>12.0</td>
+      <td>2006.0</td>
+      <td>1</td>
+      <td>14.0</td>
+      <td>2011.0</td>
+      <td>Jan,Apr,Jul,Oct</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>4</td>
+      <td>5</td>
+      <td>2015-07-31</td>
+      <td>13995</td>
+      <td>1498</td>
+      <td>1</td>
+      <td>1</td>
+      <td>0</td>
+      <td>1</td>
+      <td>c</td>
+      <td>c</td>
+      <td>620.0</td>
+      <td>9.0</td>
+      <td>2009.0</td>
+      <td>0</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>5</td>
+      <td>5</td>
+      <td>2015-07-31</td>
+      <td>4822</td>
+      <td>559</td>
+      <td>1</td>
+      <td>1</td>
+      <td>0</td>
+      <td>1</td>
+      <td>a</td>
+      <td>a</td>
+      <td>29910.0</td>
+      <td>4.0</td>
+      <td>2015.0</td>
+      <td>0</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>...</th>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+    </tr>
+    <tr>
+      <th>1016776</th>
+      <td>682</td>
+      <td>2</td>
+      <td>2013-01-01</td>
+      <td>3375</td>
+      <td>566</td>
+      <td>1</td>
+      <td>0</td>
+      <td>a</td>
+      <td>1</td>
+      <td>b</td>
+      <td>a</td>
+      <td>150.0</td>
+      <td>9.0</td>
+      <td>2006.0</td>
+      <td>0</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>1016827</th>
+      <td>733</td>
+      <td>2</td>
+      <td>2013-01-01</td>
+      <td>10765</td>
+      <td>2377</td>
+      <td>1</td>
+      <td>0</td>
+      <td>a</td>
+      <td>1</td>
+      <td>b</td>
+      <td>b</td>
+      <td>860.0</td>
+      <td>10.0</td>
+      <td>1999.0</td>
+      <td>0</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>1016863</th>
+      <td>769</td>
+      <td>2</td>
+      <td>2013-01-01</td>
+      <td>5035</td>
+      <td>1248</td>
+      <td>1</td>
+      <td>0</td>
+      <td>a</td>
+      <td>1</td>
+      <td>b</td>
+      <td>b</td>
+      <td>840.0</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>1</td>
+      <td>48.0</td>
+      <td>2012.0</td>
+      <td>Jan,Apr,Jul,Oct</td>
+    </tr>
+    <tr>
+      <th>1017042</th>
+      <td>948</td>
+      <td>2</td>
+      <td>2013-01-01</td>
+      <td>4491</td>
+      <td>1039</td>
+      <td>1</td>
+      <td>0</td>
+      <td>a</td>
+      <td>1</td>
+      <td>b</td>
+      <td>b</td>
+      <td>1430.0</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>0</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>1017190</th>
+      <td>1097</td>
+      <td>2</td>
+      <td>2013-01-01</td>
+      <td>5961</td>
+      <td>1405</td>
+      <td>1</td>
+      <td>0</td>
+      <td>a</td>
+      <td>1</td>
+      <td>b</td>
+      <td>b</td>
+      <td>720.0</td>
+      <td>3.0</td>
+      <td>2002.0</td>
+      <td>0</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+  </tbody>
+</table>
+<p>844392 rows × 18 columns</p>
+</div>
+</div>
+</div>
+<section id="exploratory-data-analysis-and-visualization"
+class="cell markdown">
+<h3>Exploratory Data Analysis and Visualization</h3>
+<p>Objectives of exploratory data analysis:</p>
+<ul>
+<li>Gather insights about the problem and the dataset</li>
+<li>Study the distributions of individual columns (uniform, normal,
+exponential)</li>
+<li>Detect anomalies or errors in the data (e.g. missing/incorrect
+values)</li>
+<li>Study the relationship of target column with other columns (linear,
+non-linear etc.)</li>
+<li>Baiscally, Come up with ideas for preprocessing and feature
+engineering</li>
+</ul>
+</section>
+<div class="cell code" data-execution_count="14">
+<div class="sourceCode" id="cb19"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb19-1"><a href="#cb19-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib</span>
+<span id="cb19-2"><a href="#cb19-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
+<span id="cb19-3"><a href="#cb19-3" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
+<span id="cb19-4"><a href="#cb19-4" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> seaborn <span class="im">as</span> sns</span>
+<span id="cb19-5"><a href="#cb19-5" aria-hidden="true" tabindex="-1"></a><span class="op">%</span>matplotlib inline</span>
+<span id="cb19-6"><a href="#cb19-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb19-7"><a href="#cb19-7" aria-hidden="true" tabindex="-1"></a>sns.set_style(<span class="st">&#39;darkgrid&#39;</span>)</span>
+<span id="cb19-8"><a href="#cb19-8" aria-hidden="true" tabindex="-1"></a>matplotlib.rcParams[<span class="st">&#39;font.size&#39;</span>] <span class="op">=</span> <span class="dv">14</span></span>
+<span id="cb19-9"><a href="#cb19-9" aria-hidden="true" tabindex="-1"></a>matplotlib.rcParams[<span class="st">&#39;figure.figsize&#39;</span>] <span class="op">=</span> (<span class="dv">10</span>, <span class="dv">6</span>)</span>
+<span id="cb19-10"><a href="#cb19-10" aria-hidden="true" tabindex="-1"></a>matplotlib.rcParams[<span class="st">&#39;figure.facecolor&#39;</span>] <span class="op">=</span> <span class="st">&#39;#00000000&#39;</span></span></code></pre></div>
+</div>
+<section id="sales-distribution" class="cell markdown">
+<h5>Sales Distribution</h5>
+</section>
+<div class="cell code" data-execution_count="15">
+<div class="sourceCode" id="cb20"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb20-1"><a href="#cb20-1" aria-hidden="true" tabindex="-1"></a>sns.histplot(data<span class="op">=</span>merged_train_data, x <span class="op">=</span> <span class="st">&quot;Sales&quot;</span>)</span>
+<span id="cb20-2"><a href="#cb20-2" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">&quot;Sales Distribution&quot;</span>)</span>
+<span id="cb20-3"><a href="#cb20-3" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output display_data">
+<p><img
+src="vertopal_dca6b43452e744cfb85183327967815b/0737180c2062a4fdea6f170ed8d8e2f985fd4919.png" /></p>
+</div>
+</div>
+<div class="cell markdown">
+<p>Conclusions made are:</p>
+<ul>
+<li><p>We get a fairly smooth gussian curve after excluding 0 from
+data.</p></li>
+<li><p>This graph suggests that 40% of are sales are under $10K that is
+contribute by many customers.</p></li>
+<li><p>But as the sales increases our number of customers decreases.
+This is fair because we generally have 10-20% of elite customers if we
+are dealing with all types of products</p></li>
+</ul>
+</div>
+<div class="cell code" data-execution_count="16">
+<div class="sourceCode" id="cb21"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb21-1"><a href="#cb21-1" aria-hidden="true" tabindex="-1"></a><span class="co"># We can find the columns that are correlated to &quot;Sales&quot; - Target column</span></span>
+<span id="cb21-2"><a href="#cb21-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb21-3"><a href="#cb21-3" aria-hidden="true" tabindex="-1"></a>merged_train_data.corr()[<span class="st">&#39;Sales&#39;</span>].sort_values(ascending<span class="op">=</span><span class="va">False</span>)</span></code></pre></div>
+<div class="output execute_result" data-execution_count="16">
+<pre><code>Sales                        1.000000
+Customers                    0.823597
+Promo                        0.368145
+Promo2SinceWeek              0.095311
+SchoolHoliday                0.038617
+CompetitionOpenSinceYear     0.016101
+Store                        0.007710
+Promo2SinceYear             -0.034713
+CompetitionDistance         -0.036396
+CompetitionOpenSinceMonth   -0.043489
+Promo2                      -0.127596
+DayOfWeek                   -0.178736
+Open                              NaN
+Name: Sales, dtype: float64</code></pre>
+</div>
+</div>
+<section id="sales-vs-customers" class="cell markdown">
+<h5>Sales Vs Customers</h5>
+</section>
+<div class="cell code" data-execution_count="17">
+<div class="sourceCode" id="cb23"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb23-1"><a href="#cb23-1" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize<span class="op">=</span>(<span class="dv">15</span>,<span class="dv">8</span>))</span>
+<span id="cb23-2"><a href="#cb23-2" aria-hidden="true" tabindex="-1"></a>temp_df <span class="op">=</span> merged_train_data.sample(<span class="dv">50000</span>)</span>
+<span id="cb23-3"><a href="#cb23-3" aria-hidden="true" tabindex="-1"></a>sns.scatterplot(x<span class="op">=</span>temp_df.Sales, y<span class="op">=</span>temp_df.Customers, hue<span class="op">=</span>temp_df.Date.dt.year, alpha<span class="op">=</span><span class="fl">0.8</span>)</span>
+<span id="cb23-4"><a href="#cb23-4" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">&quot;Sales Vs Customers&quot;</span>)</span>
+<span id="cb23-5"><a href="#cb23-5" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output display_data">
+<p><img
+src="vertopal_dca6b43452e744cfb85183327967815b/e96566baa9c35e1f7f71f7001b00dacfe6d83ab5.png" /></p>
+</div>
+</div>
+<div class="cell markdown">
+<p>Conclusions made are:</p>
+<ul>
+<li><p>There is a positive correlation between sales and customers. This
+means that as the number of customers increases, sales also increase.
+Also, from Scatter plot it is clear that the 2K customers are
+responsible for large chunk of sales from approximately $5k to
+$15k.</p></li>
+<li><p>As there is a strong correlation between more customers more
+sales. Obviously not necessarily always true because sometimes even few
+customers spend more. There are a few outliers in the data. These
+outliers are data points that do not follow the general trend of the
+data. The two outliers in this graph are from 2015 and have the highest
+sales and the most customers.</p></li>
+<li><p>But certainly we cannot take this column into consideration for
+model building because it is inevitable to know or predict how many
+customers can come in a day. It is important to consider the reasons for
+the outliers when making decisions about sales and marketing. For
+example, the outliers in this graph could be due to a one-time event,
+such as a special promotion or the launch of a new product.</p></li>
+</ul>
+</div>
+<section id="sales-per-store" class="cell markdown">
+<h5>Sales Per Store</h5>
+</section>
+<div class="cell code" data-execution_count="18">
+<div class="sourceCode" id="cb24"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb24-1"><a href="#cb24-1" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize<span class="op">=</span>(<span class="dv">18</span>,<span class="dv">8</span>))</span>
+<span id="cb24-2"><a href="#cb24-2" aria-hidden="true" tabindex="-1"></a>temp_df <span class="op">=</span> merged_train_data.sample(<span class="dv">50000</span>)</span>
+<span id="cb24-3"><a href="#cb24-3" aria-hidden="true" tabindex="-1"></a>sns.scatterplot(x<span class="op">=</span>temp_df.Store, y<span class="op">=</span>temp_df.Sales, hue<span class="op">=</span>temp_df.Date.dt.year, alpha<span class="op">=</span><span class="fl">0.8</span>)</span>
+<span id="cb24-4"><a href="#cb24-4" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">&quot;Stores Vs Sales&quot;</span>)</span>
+<span id="cb24-5"><a href="#cb24-5" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output display_data">
+<p><img
+src="vertopal_dca6b43452e744cfb85183327967815b/7e1c9d3c693ba283d02e06134d849ff2b4ab14fc.png" /></p>
+</div>
+</div>
+<div class="cell markdown">
+<p>Conclusions made are:</p>
+<ul>
+<li><p>We have around 1200 stores and for each stores we have just
+plotted the sales based on a paticular days.</p></li>
+<li><p>It is really noisy because there are thousands of stores, but
+each vertical line will represent a store.</p></li>
+<li><p>The sales may fluctuate based on a single store (it can be high
+as well as low) on a certain day.</p></li>
+<li><p>Even after this most stores have sales btw /$5K to
+/$12k.</p></li>
+<li><p>Note: I also plotting a barplot but it was taking too mcuh time
+maybe because of large amount of data.</p></li>
+</ul>
+</div>
+<section id="sales-vs-day-of-week" class="cell markdown">
+<h5>Sales Vs Day of Week</h5>
+</section>
+<div class="cell code" data-execution_count="19">
+<div class="sourceCode" id="cb25"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb25-1"><a href="#cb25-1" aria-hidden="true" tabindex="-1"></a>sns.barplot(data<span class="op">=</span> merged_train_data, x <span class="op">=</span> <span class="st">&quot;DayOfWeek&quot;</span>, y<span class="op">=</span> <span class="st">&quot;Sales&quot;</span>)</span>
+<span id="cb25-2"><a href="#cb25-2" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">&quot;Sales Vs Day of Week&quot;</span>)</span>
+<span id="cb25-3"><a href="#cb25-3" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output display_data">
+<p><img
+src="vertopal_dca6b43452e744cfb85183327967815b/2be4c17ebde61dbb33abaada3b7f70c35a9bbb2a.png" /></p>
+</div>
+</div>
+<div class="cell markdown">
+<p>Conclusions made are:</p>
+<ul>
+<li><p>Here, 7th and 1st day are Saturday and Sunday respectively, hence
+more sales is sensible.</p></li>
+<li><p>But why Friday has lower sales is doubtful.</p></li>
+<li><p>Other days are doing good so no problem there.</p></li>
+</ul>
+</div>
+<section id="sales-vs-promo-day" class="cell markdown">
+<h5>Sales Vs Promo Day</h5>
+</section>
+<div class="cell code" data-execution_count="20">
+<div class="sourceCode" id="cb26"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb26-1"><a href="#cb26-1" aria-hidden="true" tabindex="-1"></a>sns.barplot(data<span class="op">=</span>merged_train_data, x<span class="op">=</span><span class="st">&#39;Promo&#39;</span>, y<span class="op">=</span><span class="st">&#39;Sales&#39;</span>)</span>
+<span id="cb26-2"><a href="#cb26-2" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">&quot;Sales Vs Day of Promo&quot;</span>)</span>
+<span id="cb26-3"><a href="#cb26-3" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output display_data">
+<p><img
+src="vertopal_dca6b43452e744cfb85183327967815b/d3e65577e43b2388bd1e33e152ccf903ec9185d8.png" /></p>
+</div>
+</div>
+<div class="cell markdown">
+<p>Conclusions made are:</p>
+<ul>
+<li><p>Promotion seems to be an important factor of "Sales". As sales is
+higher on promotion day and vice versa.</p></li>
+<li><p>There is almost 20% increase in seals during the days of
+promotions.</p></li>
+</ul>
+</div>
+<div class="cell code" data-execution_count="21">
+<div class="sourceCode" id="cb27"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb27-1"><a href="#cb27-1" aria-hidden="true" tabindex="-1"></a>merged_train_data[<span class="st">&quot;Promo&quot;</span>].unique()</span></code></pre></div>
+<div class="output execute_result" data-execution_count="21">
+<pre><code>array([1, 0], dtype=int64)</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="22">
+<div class="sourceCode" id="cb29"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb29-1"><a href="#cb29-1" aria-hidden="true" tabindex="-1"></a>merged_train_data[<span class="st">&#39;Promo&#39;</span>] <span class="op">=</span> np.where(merged_train_data.Promo <span class="op">==</span> <span class="dv">1</span>,<span class="st">&quot;a&quot;</span>,<span class="st">&quot;b&quot;</span>)</span>
+<span id="cb29-2"><a href="#cb29-2" aria-hidden="true" tabindex="-1"></a>merged_train_data</span></code></pre></div>
+<div class="output execute_result" data-execution_count="22">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Store</th>
+      <th>DayOfWeek</th>
+      <th>Date</th>
+      <th>Sales</th>
+      <th>Customers</th>
+      <th>Open</th>
+      <th>Promo</th>
+      <th>StateHoliday</th>
+      <th>SchoolHoliday</th>
+      <th>StoreType</th>
+      <th>Assortment</th>
+      <th>CompetitionDistance</th>
+      <th>CompetitionOpenSinceMonth</th>
+      <th>CompetitionOpenSinceYear</th>
+      <th>Promo2</th>
+      <th>Promo2SinceWeek</th>
+      <th>Promo2SinceYear</th>
+      <th>PromoInterval</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>1</td>
+      <td>5</td>
+      <td>2015-07-31</td>
+      <td>5263</td>
+      <td>555</td>
+      <td>1</td>
+      <td>a</td>
+      <td>0</td>
+      <td>1</td>
+      <td>c</td>
+      <td>a</td>
+      <td>1270.0</td>
+      <td>9.0</td>
+      <td>2008.0</td>
+      <td>0</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>2</td>
+      <td>5</td>
+      <td>2015-07-31</td>
+      <td>6064</td>
+      <td>625</td>
+      <td>1</td>
+      <td>a</td>
+      <td>0</td>
+      <td>1</td>
+      <td>a</td>
+      <td>a</td>
+      <td>570.0</td>
+      <td>11.0</td>
+      <td>2007.0</td>
+      <td>1</td>
+      <td>13.0</td>
+      <td>2010.0</td>
+      <td>Jan,Apr,Jul,Oct</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>3</td>
+      <td>5</td>
+      <td>2015-07-31</td>
+      <td>8314</td>
+      <td>821</td>
+      <td>1</td>
+      <td>a</td>
+      <td>0</td>
+      <td>1</td>
+      <td>a</td>
+      <td>a</td>
+      <td>14130.0</td>
+      <td>12.0</td>
+      <td>2006.0</td>
+      <td>1</td>
+      <td>14.0</td>
+      <td>2011.0</td>
+      <td>Jan,Apr,Jul,Oct</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>4</td>
+      <td>5</td>
+      <td>2015-07-31</td>
+      <td>13995</td>
+      <td>1498</td>
+      <td>1</td>
+      <td>a</td>
+      <td>0</td>
+      <td>1</td>
+      <td>c</td>
+      <td>c</td>
+      <td>620.0</td>
+      <td>9.0</td>
+      <td>2009.0</td>
+      <td>0</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>5</td>
+      <td>5</td>
+      <td>2015-07-31</td>
+      <td>4822</td>
+      <td>559</td>
+      <td>1</td>
+      <td>a</td>
+      <td>0</td>
+      <td>1</td>
+      <td>a</td>
+      <td>a</td>
+      <td>29910.0</td>
+      <td>4.0</td>
+      <td>2015.0</td>
+      <td>0</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>...</th>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+    </tr>
+    <tr>
+      <th>1016776</th>
+      <td>682</td>
+      <td>2</td>
+      <td>2013-01-01</td>
+      <td>3375</td>
+      <td>566</td>
+      <td>1</td>
+      <td>b</td>
+      <td>a</td>
+      <td>1</td>
+      <td>b</td>
+      <td>a</td>
+      <td>150.0</td>
+      <td>9.0</td>
+      <td>2006.0</td>
+      <td>0</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>1016827</th>
+      <td>733</td>
+      <td>2</td>
+      <td>2013-01-01</td>
+      <td>10765</td>
+      <td>2377</td>
+      <td>1</td>
+      <td>b</td>
+      <td>a</td>
+      <td>1</td>
+      <td>b</td>
+      <td>b</td>
+      <td>860.0</td>
+      <td>10.0</td>
+      <td>1999.0</td>
+      <td>0</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>1016863</th>
+      <td>769</td>
+      <td>2</td>
+      <td>2013-01-01</td>
+      <td>5035</td>
+      <td>1248</td>
+      <td>1</td>
+      <td>b</td>
+      <td>a</td>
+      <td>1</td>
+      <td>b</td>
+      <td>b</td>
+      <td>840.0</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>1</td>
+      <td>48.0</td>
+      <td>2012.0</td>
+      <td>Jan,Apr,Jul,Oct</td>
+    </tr>
+    <tr>
+      <th>1017042</th>
+      <td>948</td>
+      <td>2</td>
+      <td>2013-01-01</td>
+      <td>4491</td>
+      <td>1039</td>
+      <td>1</td>
+      <td>b</td>
+      <td>a</td>
+      <td>1</td>
+      <td>b</td>
+      <td>b</td>
+      <td>1430.0</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>0</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>1017190</th>
+      <td>1097</td>
+      <td>2</td>
+      <td>2013-01-01</td>
+      <td>5961</td>
+      <td>1405</td>
+      <td>1</td>
+      <td>b</td>
+      <td>a</td>
+      <td>1</td>
+      <td>b</td>
+      <td>b</td>
+      <td>720.0</td>
+      <td>3.0</td>
+      <td>2002.0</td>
+      <td>0</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+  </tbody>
+</table>
+<p>844392 rows × 18 columns</p>
+</div>
+</div>
+</div>
+<div class="cell code" data-execution_count="23">
+<div class="sourceCode" id="cb30"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb30-1"><a href="#cb30-1" aria-hidden="true" tabindex="-1"></a>merged_train_data[<span class="st">&quot;DayOfWeek&quot;</span>].unique()</span></code></pre></div>
+<div class="output execute_result" data-execution_count="23">
+<pre><code>array([5, 4, 3, 2, 1, 7, 6], dtype=int64)</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="24">
+<div class="sourceCode" id="cb32"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb32-1"><a href="#cb32-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Create a mapping dictionary for day names</span></span>
+<span id="cb32-2"><a href="#cb32-2" aria-hidden="true" tabindex="-1"></a>day_mapping <span class="op">=</span> {</span>
+<span id="cb32-3"><a href="#cb32-3" aria-hidden="true" tabindex="-1"></a>    <span class="dv">1</span>: <span class="st">&quot;Mon&quot;</span>,</span>
+<span id="cb32-4"><a href="#cb32-4" aria-hidden="true" tabindex="-1"></a>    <span class="dv">2</span>: <span class="st">&quot;Tue&quot;</span>,</span>
+<span id="cb32-5"><a href="#cb32-5" aria-hidden="true" tabindex="-1"></a>    <span class="dv">3</span>: <span class="st">&quot;Wed&quot;</span>,</span>
+<span id="cb32-6"><a href="#cb32-6" aria-hidden="true" tabindex="-1"></a>    <span class="dv">4</span>: <span class="st">&quot;Thu&quot;</span>,</span>
+<span id="cb32-7"><a href="#cb32-7" aria-hidden="true" tabindex="-1"></a>    <span class="dv">5</span>: <span class="st">&quot;Fri&quot;</span>,</span>
+<span id="cb32-8"><a href="#cb32-8" aria-hidden="true" tabindex="-1"></a>    <span class="dv">6</span>: <span class="st">&quot;Sat&quot;</span>,</span>
+<span id="cb32-9"><a href="#cb32-9" aria-hidden="true" tabindex="-1"></a>    <span class="dv">7</span>: <span class="st">&quot;Sun&quot;</span></span>
+<span id="cb32-10"><a href="#cb32-10" aria-hidden="true" tabindex="-1"></a>}</span>
+<span id="cb32-11"><a href="#cb32-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb32-12"><a href="#cb32-12" aria-hidden="true" tabindex="-1"></a><span class="co"># Replace numerical values with day names</span></span>
+<span id="cb32-13"><a href="#cb32-13" aria-hidden="true" tabindex="-1"></a>merged_train_data[<span class="st">&quot;DayOfWeek&quot;</span>] <span class="op">=</span> merged_train_data[<span class="st">&quot;DayOfWeek&quot;</span>].replace(day_mapping)</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="25">
+<div class="sourceCode" id="cb33"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb33-1"><a href="#cb33-1" aria-hidden="true" tabindex="-1"></a>merged_train_data</span></code></pre></div>
+<div class="output execute_result" data-execution_count="25">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Store</th>
+      <th>DayOfWeek</th>
+      <th>Date</th>
+      <th>Sales</th>
+      <th>Customers</th>
+      <th>Open</th>
+      <th>Promo</th>
+      <th>StateHoliday</th>
+      <th>SchoolHoliday</th>
+      <th>StoreType</th>
+      <th>Assortment</th>
+      <th>CompetitionDistance</th>
+      <th>CompetitionOpenSinceMonth</th>
+      <th>CompetitionOpenSinceYear</th>
+      <th>Promo2</th>
+      <th>Promo2SinceWeek</th>
+      <th>Promo2SinceYear</th>
+      <th>PromoInterval</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>1</td>
+      <td>Fri</td>
+      <td>2015-07-31</td>
+      <td>5263</td>
+      <td>555</td>
+      <td>1</td>
+      <td>a</td>
+      <td>0</td>
+      <td>1</td>
+      <td>c</td>
+      <td>a</td>
+      <td>1270.0</td>
+      <td>9.0</td>
+      <td>2008.0</td>
+      <td>0</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>2</td>
+      <td>Fri</td>
+      <td>2015-07-31</td>
+      <td>6064</td>
+      <td>625</td>
+      <td>1</td>
+      <td>a</td>
+      <td>0</td>
+      <td>1</td>
+      <td>a</td>
+      <td>a</td>
+      <td>570.0</td>
+      <td>11.0</td>
+      <td>2007.0</td>
+      <td>1</td>
+      <td>13.0</td>
+      <td>2010.0</td>
+      <td>Jan,Apr,Jul,Oct</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>3</td>
+      <td>Fri</td>
+      <td>2015-07-31</td>
+      <td>8314</td>
+      <td>821</td>
+      <td>1</td>
+      <td>a</td>
+      <td>0</td>
+      <td>1</td>
+      <td>a</td>
+      <td>a</td>
+      <td>14130.0</td>
+      <td>12.0</td>
+      <td>2006.0</td>
+      <td>1</td>
+      <td>14.0</td>
+      <td>2011.0</td>
+      <td>Jan,Apr,Jul,Oct</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>4</td>
+      <td>Fri</td>
+      <td>2015-07-31</td>
+      <td>13995</td>
+      <td>1498</td>
+      <td>1</td>
+      <td>a</td>
+      <td>0</td>
+      <td>1</td>
+      <td>c</td>
+      <td>c</td>
+      <td>620.0</td>
+      <td>9.0</td>
+      <td>2009.0</td>
+      <td>0</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>5</td>
+      <td>Fri</td>
+      <td>2015-07-31</td>
+      <td>4822</td>
+      <td>559</td>
+      <td>1</td>
+      <td>a</td>
+      <td>0</td>
+      <td>1</td>
+      <td>a</td>
+      <td>a</td>
+      <td>29910.0</td>
+      <td>4.0</td>
+      <td>2015.0</td>
+      <td>0</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>...</th>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+    </tr>
+    <tr>
+      <th>1016776</th>
+      <td>682</td>
+      <td>Tue</td>
+      <td>2013-01-01</td>
+      <td>3375</td>
+      <td>566</td>
+      <td>1</td>
+      <td>b</td>
+      <td>a</td>
+      <td>1</td>
+      <td>b</td>
+      <td>a</td>
+      <td>150.0</td>
+      <td>9.0</td>
+      <td>2006.0</td>
+      <td>0</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>1016827</th>
+      <td>733</td>
+      <td>Tue</td>
+      <td>2013-01-01</td>
+      <td>10765</td>
+      <td>2377</td>
+      <td>1</td>
+      <td>b</td>
+      <td>a</td>
+      <td>1</td>
+      <td>b</td>
+      <td>b</td>
+      <td>860.0</td>
+      <td>10.0</td>
+      <td>1999.0</td>
+      <td>0</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>1016863</th>
+      <td>769</td>
+      <td>Tue</td>
+      <td>2013-01-01</td>
+      <td>5035</td>
+      <td>1248</td>
+      <td>1</td>
+      <td>b</td>
+      <td>a</td>
+      <td>1</td>
+      <td>b</td>
+      <td>b</td>
+      <td>840.0</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>1</td>
+      <td>48.0</td>
+      <td>2012.0</td>
+      <td>Jan,Apr,Jul,Oct</td>
+    </tr>
+    <tr>
+      <th>1017042</th>
+      <td>948</td>
+      <td>Tue</td>
+      <td>2013-01-01</td>
+      <td>4491</td>
+      <td>1039</td>
+      <td>1</td>
+      <td>b</td>
+      <td>a</td>
+      <td>1</td>
+      <td>b</td>
+      <td>b</td>
+      <td>1430.0</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>0</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>1017190</th>
+      <td>1097</td>
+      <td>Tue</td>
+      <td>2013-01-01</td>
+      <td>5961</td>
+      <td>1405</td>
+      <td>1</td>
+      <td>b</td>
+      <td>a</td>
+      <td>1</td>
+      <td>b</td>
+      <td>b</td>
+      <td>720.0</td>
+      <td>3.0</td>
+      <td>2002.0</td>
+      <td>0</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+  </tbody>
+</table>
+<p>844392 rows × 18 columns</p>
+</div>
+</div>
+</div>
+<div class="cell code" data-execution_count="26">
+<div class="sourceCode" id="cb34"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb34-1"><a href="#cb34-1" aria-hidden="true" tabindex="-1"></a>merged_train_data[<span class="st">&quot;StateHoliday&quot;</span>].unique()</span></code></pre></div>
+<div class="output execute_result" data-execution_count="26">
+<pre><code>array([&#39;0&#39;, &#39;a&#39;, &#39;b&#39;, &#39;c&#39;, 0], dtype=object)</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="27">
+<div class="sourceCode" id="cb36"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb36-1"><a href="#cb36-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Convert &#39;0&#39; values to int</span></span>
+<span id="cb36-2"><a href="#cb36-2" aria-hidden="true" tabindex="-1"></a><span class="co"># merged_train_data[&quot;StateHoliday&quot;] = merged_train_data[&quot;StateHoliday&quot;].replace(&#39;0&#39;, 0).astype(int)</span></span>
+<span id="cb36-3"><a href="#cb36-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb36-4"><a href="#cb36-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Replace 0 with a specific value, for example, &#39;NotHoliday&#39;</span></span>
+<span id="cb36-5"><a href="#cb36-5" aria-hidden="true" tabindex="-1"></a>replacement_value <span class="op">=</span> <span class="st">&#39;NotHoliday&#39;</span></span>
+<span id="cb36-6"><a href="#cb36-6" aria-hidden="true" tabindex="-1"></a>merged_train_data[<span class="st">&quot;StateHoliday&quot;</span>] <span class="op">=</span> merged_train_data[<span class="st">&quot;StateHoliday&quot;</span>].replace(<span class="st">&#39;0&#39;</span>, replacement_value)</span>
+<span id="cb36-7"><a href="#cb36-7" aria-hidden="true" tabindex="-1"></a>merged_train_data[<span class="st">&quot;StateHoliday&quot;</span>] <span class="op">=</span> merged_train_data[<span class="st">&quot;StateHoliday&quot;</span>].replace(<span class="dv">0</span>, replacement_value)</span>
+<span id="cb36-8"><a href="#cb36-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb36-9"><a href="#cb36-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb36-10"><a href="#cb36-10" aria-hidden="true" tabindex="-1"></a><span class="co"># Verify the changes</span></span>
+<span id="cb36-11"><a href="#cb36-11" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(merged_train_data[<span class="st">&quot;StateHoliday&quot;</span>].unique())</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>[&#39;NotHoliday&#39; &#39;a&#39; &#39;b&#39; &#39;c&#39;]
+</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="28">
+<div class="sourceCode" id="cb38"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb38-1"><a href="#cb38-1" aria-hidden="true" tabindex="-1"></a>merged_train_data[<span class="st">&quot;StoreType&quot;</span>].unique()</span></code></pre></div>
+<div class="output execute_result" data-execution_count="28">
+<pre><code>array([&#39;c&#39;, &#39;a&#39;, &#39;d&#39;, &#39;b&#39;], dtype=object)</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="29">
+<div class="sourceCode" id="cb40"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb40-1"><a href="#cb40-1" aria-hidden="true" tabindex="-1"></a>merged_train_data[<span class="st">&quot;Assortment&quot;</span>].unique()</span></code></pre></div>
+<div class="output execute_result" data-execution_count="29">
+<pre><code>array([&#39;a&#39;, &#39;c&#39;, &#39;b&#39;], dtype=object)</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="30">
+<div class="sourceCode" id="cb42"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb42-1"><a href="#cb42-1" aria-hidden="true" tabindex="-1"></a>merged_test_data</span></code></pre></div>
+<div class="output execute_result" data-execution_count="30">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Store</th>
+      <th>DayOfWeek</th>
+      <th>Date</th>
+      <th>Open</th>
+      <th>Promo</th>
+      <th>StateHoliday</th>
+      <th>SchoolHoliday</th>
+      <th>StoreType</th>
+      <th>Assortment</th>
+      <th>CompetitionDistance</th>
+      <th>CompetitionOpenSinceMonth</th>
+      <th>CompetitionOpenSinceYear</th>
+      <th>Promo2</th>
+      <th>Promo2SinceWeek</th>
+      <th>Promo2SinceYear</th>
+      <th>PromoInterval</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>1</td>
+      <td>4</td>
+      <td>2015-09-17</td>
+      <td>1.0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>c</td>
+      <td>a</td>
+      <td>1270.0</td>
+      <td>9.0</td>
+      <td>2008.0</td>
+      <td>0</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>3</td>
+      <td>4</td>
+      <td>2015-09-17</td>
+      <td>1.0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>a</td>
+      <td>a</td>
+      <td>14130.0</td>
+      <td>12.0</td>
+      <td>2006.0</td>
+      <td>1</td>
+      <td>14.0</td>
+      <td>2011.0</td>
+      <td>Jan,Apr,Jul,Oct</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>7</td>
+      <td>4</td>
+      <td>2015-09-17</td>
+      <td>1.0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>a</td>
+      <td>c</td>
+      <td>24000.0</td>
+      <td>4.0</td>
+      <td>2013.0</td>
+      <td>0</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>8</td>
+      <td>4</td>
+      <td>2015-09-17</td>
+      <td>1.0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>a</td>
+      <td>a</td>
+      <td>7520.0</td>
+      <td>10.0</td>
+      <td>2014.0</td>
+      <td>0</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>9</td>
+      <td>4</td>
+      <td>2015-09-17</td>
+      <td>1.0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>a</td>
+      <td>c</td>
+      <td>2030.0</td>
+      <td>8.0</td>
+      <td>2000.0</td>
+      <td>0</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>...</th>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+    </tr>
+    <tr>
+      <th>41083</th>
+      <td>1111</td>
+      <td>6</td>
+      <td>2015-08-01</td>
+      <td>1.0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>a</td>
+      <td>a</td>
+      <td>1900.0</td>
+      <td>6.0</td>
+      <td>2014.0</td>
+      <td>1</td>
+      <td>31.0</td>
+      <td>2013.0</td>
+      <td>Jan,Apr,Jul,Oct</td>
+    </tr>
+    <tr>
+      <th>41084</th>
+      <td>1112</td>
+      <td>6</td>
+      <td>2015-08-01</td>
+      <td>1.0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>c</td>
+      <td>c</td>
+      <td>1880.0</td>
+      <td>4.0</td>
+      <td>2006.0</td>
+      <td>0</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>41085</th>
+      <td>1113</td>
+      <td>6</td>
+      <td>2015-08-01</td>
+      <td>1.0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>a</td>
+      <td>c</td>
+      <td>9260.0</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>0</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>41086</th>
+      <td>1114</td>
+      <td>6</td>
+      <td>2015-08-01</td>
+      <td>1.0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>a</td>
+      <td>c</td>
+      <td>870.0</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>0</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>41087</th>
+      <td>1115</td>
+      <td>6</td>
+      <td>2015-08-01</td>
+      <td>1.0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>d</td>
+      <td>c</td>
+      <td>5350.0</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>1</td>
+      <td>22.0</td>
+      <td>2012.0</td>
+      <td>Mar,Jun,Sept,Dec</td>
+    </tr>
+  </tbody>
+</table>
+<p>41088 rows × 16 columns</p>
+</div>
+</div>
+</div>
+<div class="cell code" data-execution_count="31">
+<div class="sourceCode" id="cb43"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb43-1"><a href="#cb43-1" aria-hidden="true" tabindex="-1"></a>merged_test_data[<span class="st">&quot;Promo&quot;</span>].unique()</span></code></pre></div>
+<div class="output execute_result" data-execution_count="31">
+<pre><code>array([1, 0], dtype=int64)</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="32">
+<div class="sourceCode" id="cb45"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb45-1"><a href="#cb45-1" aria-hidden="true" tabindex="-1"></a>merged_test_data[<span class="st">&#39;Promo&#39;</span>] <span class="op">=</span> np.where(merged_test_data.Promo <span class="op">==</span> <span class="dv">1</span>,<span class="st">&quot;a&quot;</span>,<span class="st">&quot;b&quot;</span>)</span>
+<span id="cb45-2"><a href="#cb45-2" aria-hidden="true" tabindex="-1"></a>merged_test_data</span></code></pre></div>
+<div class="output execute_result" data-execution_count="32">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Store</th>
+      <th>DayOfWeek</th>
+      <th>Date</th>
+      <th>Open</th>
+      <th>Promo</th>
+      <th>StateHoliday</th>
+      <th>SchoolHoliday</th>
+      <th>StoreType</th>
+      <th>Assortment</th>
+      <th>CompetitionDistance</th>
+      <th>CompetitionOpenSinceMonth</th>
+      <th>CompetitionOpenSinceYear</th>
+      <th>Promo2</th>
+      <th>Promo2SinceWeek</th>
+      <th>Promo2SinceYear</th>
+      <th>PromoInterval</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>1</td>
+      <td>4</td>
+      <td>2015-09-17</td>
+      <td>1.0</td>
+      <td>a</td>
+      <td>0</td>
+      <td>0</td>
+      <td>c</td>
+      <td>a</td>
+      <td>1270.0</td>
+      <td>9.0</td>
+      <td>2008.0</td>
+      <td>0</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>3</td>
+      <td>4</td>
+      <td>2015-09-17</td>
+      <td>1.0</td>
+      <td>a</td>
+      <td>0</td>
+      <td>0</td>
+      <td>a</td>
+      <td>a</td>
+      <td>14130.0</td>
+      <td>12.0</td>
+      <td>2006.0</td>
+      <td>1</td>
+      <td>14.0</td>
+      <td>2011.0</td>
+      <td>Jan,Apr,Jul,Oct</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>7</td>
+      <td>4</td>
+      <td>2015-09-17</td>
+      <td>1.0</td>
+      <td>a</td>
+      <td>0</td>
+      <td>0</td>
+      <td>a</td>
+      <td>c</td>
+      <td>24000.0</td>
+      <td>4.0</td>
+      <td>2013.0</td>
+      <td>0</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>8</td>
+      <td>4</td>
+      <td>2015-09-17</td>
+      <td>1.0</td>
+      <td>a</td>
+      <td>0</td>
+      <td>0</td>
+      <td>a</td>
+      <td>a</td>
+      <td>7520.0</td>
+      <td>10.0</td>
+      <td>2014.0</td>
+      <td>0</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>9</td>
+      <td>4</td>
+      <td>2015-09-17</td>
+      <td>1.0</td>
+      <td>a</td>
+      <td>0</td>
+      <td>0</td>
+      <td>a</td>
+      <td>c</td>
+      <td>2030.0</td>
+      <td>8.0</td>
+      <td>2000.0</td>
+      <td>0</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>...</th>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+    </tr>
+    <tr>
+      <th>41083</th>
+      <td>1111</td>
+      <td>6</td>
+      <td>2015-08-01</td>
+      <td>1.0</td>
+      <td>b</td>
+      <td>0</td>
+      <td>0</td>
+      <td>a</td>
+      <td>a</td>
+      <td>1900.0</td>
+      <td>6.0</td>
+      <td>2014.0</td>
+      <td>1</td>
+      <td>31.0</td>
+      <td>2013.0</td>
+      <td>Jan,Apr,Jul,Oct</td>
+    </tr>
+    <tr>
+      <th>41084</th>
+      <td>1112</td>
+      <td>6</td>
+      <td>2015-08-01</td>
+      <td>1.0</td>
+      <td>b</td>
+      <td>0</td>
+      <td>0</td>
+      <td>c</td>
+      <td>c</td>
+      <td>1880.0</td>
+      <td>4.0</td>
+      <td>2006.0</td>
+      <td>0</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>41085</th>
+      <td>1113</td>
+      <td>6</td>
+      <td>2015-08-01</td>
+      <td>1.0</td>
+      <td>b</td>
+      <td>0</td>
+      <td>0</td>
+      <td>a</td>
+      <td>c</td>
+      <td>9260.0</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>0</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>41086</th>
+      <td>1114</td>
+      <td>6</td>
+      <td>2015-08-01</td>
+      <td>1.0</td>
+      <td>b</td>
+      <td>0</td>
+      <td>0</td>
+      <td>a</td>
+      <td>c</td>
+      <td>870.0</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>0</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>41087</th>
+      <td>1115</td>
+      <td>6</td>
+      <td>2015-08-01</td>
+      <td>1.0</td>
+      <td>b</td>
+      <td>0</td>
+      <td>1</td>
+      <td>d</td>
+      <td>c</td>
+      <td>5350.0</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>1</td>
+      <td>22.0</td>
+      <td>2012.0</td>
+      <td>Mar,Jun,Sept,Dec</td>
+    </tr>
+  </tbody>
+</table>
+<p>41088 rows × 16 columns</p>
+</div>
+</div>
+</div>
+<div class="cell code" data-execution_count="33">
+<div class="sourceCode" id="cb46"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb46-1"><a href="#cb46-1" aria-hidden="true" tabindex="-1"></a>merged_test_data[<span class="st">&quot;DayOfWeek&quot;</span>].unique()</span></code></pre></div>
+<div class="output execute_result" data-execution_count="33">
+<pre><code>array([4, 3, 2, 1, 7, 6, 5], dtype=int64)</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="34">
+<div class="sourceCode" id="cb48"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb48-1"><a href="#cb48-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Create a mapping dictionary for day names</span></span>
+<span id="cb48-2"><a href="#cb48-2" aria-hidden="true" tabindex="-1"></a>day_mapping <span class="op">=</span> {</span>
+<span id="cb48-3"><a href="#cb48-3" aria-hidden="true" tabindex="-1"></a>    <span class="dv">1</span>: <span class="st">&quot;Mon&quot;</span>,</span>
+<span id="cb48-4"><a href="#cb48-4" aria-hidden="true" tabindex="-1"></a>    <span class="dv">2</span>: <span class="st">&quot;Tue&quot;</span>,</span>
+<span id="cb48-5"><a href="#cb48-5" aria-hidden="true" tabindex="-1"></a>    <span class="dv">3</span>: <span class="st">&quot;Wed&quot;</span>,</span>
+<span id="cb48-6"><a href="#cb48-6" aria-hidden="true" tabindex="-1"></a>    <span class="dv">4</span>: <span class="st">&quot;Thu&quot;</span>,</span>
+<span id="cb48-7"><a href="#cb48-7" aria-hidden="true" tabindex="-1"></a>    <span class="dv">5</span>: <span class="st">&quot;Fri&quot;</span>,</span>
+<span id="cb48-8"><a href="#cb48-8" aria-hidden="true" tabindex="-1"></a>    <span class="dv">6</span>: <span class="st">&quot;Sat&quot;</span>,</span>
+<span id="cb48-9"><a href="#cb48-9" aria-hidden="true" tabindex="-1"></a>    <span class="dv">7</span>: <span class="st">&quot;Sun&quot;</span></span>
+<span id="cb48-10"><a href="#cb48-10" aria-hidden="true" tabindex="-1"></a>}</span>
+<span id="cb48-11"><a href="#cb48-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb48-12"><a href="#cb48-12" aria-hidden="true" tabindex="-1"></a><span class="co"># Replace numerical values with day names</span></span>
+<span id="cb48-13"><a href="#cb48-13" aria-hidden="true" tabindex="-1"></a>merged_test_data[<span class="st">&quot;DayOfWeek&quot;</span>] <span class="op">=</span> merged_test_data[<span class="st">&quot;DayOfWeek&quot;</span>].replace(day_mapping)</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="35">
+<div class="sourceCode" id="cb49"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb49-1"><a href="#cb49-1" aria-hidden="true" tabindex="-1"></a>merged_test_data[<span class="st">&quot;StateHoliday&quot;</span>].unique()</span></code></pre></div>
+<div class="output execute_result" data-execution_count="35">
+<pre><code>array([&#39;0&#39;, &#39;a&#39;], dtype=object)</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="36">
+<div class="sourceCode" id="cb51"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb51-1"><a href="#cb51-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Convert &#39;0&#39; values to int</span></span>
+<span id="cb51-2"><a href="#cb51-2" aria-hidden="true" tabindex="-1"></a><span class="co"># merged_train_data[&quot;StateHoliday&quot;] = merged_train_data[&quot;StateHoliday&quot;].replace(&#39;0&#39;, 0).astype(int)</span></span>
+<span id="cb51-3"><a href="#cb51-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb51-4"><a href="#cb51-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Replace 0 with a specific value, for example, &#39;NotHoliday&#39;</span></span>
+<span id="cb51-5"><a href="#cb51-5" aria-hidden="true" tabindex="-1"></a>replacement_value <span class="op">=</span> <span class="st">&#39;NotHoliday&#39;</span></span>
+<span id="cb51-6"><a href="#cb51-6" aria-hidden="true" tabindex="-1"></a>merged_test_data[<span class="st">&quot;StateHoliday&quot;</span>] <span class="op">=</span> merged_test_data[<span class="st">&quot;StateHoliday&quot;</span>].replace(<span class="st">&#39;0&#39;</span>, replacement_value)</span>
+<span id="cb51-7"><a href="#cb51-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb51-8"><a href="#cb51-8" aria-hidden="true" tabindex="-1"></a><span class="co"># Verify the changes</span></span>
+<span id="cb51-9"><a href="#cb51-9" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(merged_test_data[<span class="st">&quot;StateHoliday&quot;</span>].unique())</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>[&#39;NotHoliday&#39; &#39;a&#39;]
+</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="37">
+<div class="sourceCode" id="cb53"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb53-1"><a href="#cb53-1" aria-hidden="true" tabindex="-1"></a>merged_test_data[<span class="st">&quot;StoreType&quot;</span>].unique()</span></code></pre></div>
+<div class="output execute_result" data-execution_count="37">
+<pre><code>array([&#39;c&#39;, &#39;a&#39;, &#39;d&#39;, &#39;b&#39;], dtype=object)</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="38">
+<div class="sourceCode" id="cb55"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb55-1"><a href="#cb55-1" aria-hidden="true" tabindex="-1"></a>merged_test_data[<span class="st">&quot;Assortment&quot;</span>].unique()</span></code></pre></div>
+<div class="output execute_result" data-execution_count="38">
+<pre><code>array([&#39;a&#39;, &#39;c&#39;, &#39;b&#39;], dtype=object)</code></pre>
+</div>
+</div>
+<section id="feature-engineering" class="cell markdown">
+<h3>Feature Engineering</h3>
+<p>Feature engineer is the process of creating new features (columns) by
+transforming/combining existing features or by incorporating data from
+external sources.</p>
+<p>For example, here are some features that can be extracted from the
+"Date" column:</p>
+<ol>
+<li>Day of week</li>
+<li>Day or month</li>
+<li>Month</li>
+<li>Year</li>
+<li>Weekend/Weekday</li>
+<li>Month/Quarter End</li>
+</ol>
+</section>
+<div class="cell code" data-execution_count="39">
+<div class="sourceCode" id="cb57"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb57-1"><a href="#cb57-1" aria-hidden="true" tabindex="-1"></a>merged_train_data[<span class="st">&#39;Day&#39;</span>] <span class="op">=</span> merged_train_data.Date.dt.day</span>
+<span id="cb57-2"><a href="#cb57-2" aria-hidden="true" tabindex="-1"></a>merged_train_data[<span class="st">&#39;Month&#39;</span>] <span class="op">=</span> merged_train_data.Date.dt.month</span>
+<span id="cb57-3"><a href="#cb57-3" aria-hidden="true" tabindex="-1"></a>merged_train_data[<span class="st">&#39;Year&#39;</span>] <span class="op">=</span> merged_train_data.Date.dt.year</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="40">
+<div class="sourceCode" id="cb58"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb58-1"><a href="#cb58-1" aria-hidden="true" tabindex="-1"></a>merged_test_data[<span class="st">&#39;Day&#39;</span>] <span class="op">=</span> merged_test_data.Date.dt.day</span>
+<span id="cb58-2"><a href="#cb58-2" aria-hidden="true" tabindex="-1"></a>merged_test_data[<span class="st">&#39;Month&#39;</span>] <span class="op">=</span> merged_test_data.Date.dt.month</span>
+<span id="cb58-3"><a href="#cb58-3" aria-hidden="true" tabindex="-1"></a>merged_test_data[<span class="st">&#39;Year&#39;</span>] <span class="op">=</span> merged_test_data.Date.dt.year</span></code></pre></div>
+</div>
+<section id="sales-per-year" class="cell markdown">
+<h4>Sales Per Year</h4>
+</section>
+<div class="cell code" data-execution_count="41">
+<div class="sourceCode" id="cb59"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb59-1"><a href="#cb59-1" aria-hidden="true" tabindex="-1"></a>sns.barplot(data<span class="op">=</span>merged_train_data, x<span class="op">=</span><span class="st">&#39;Year&#39;</span>, y<span class="op">=</span><span class="st">&#39;Sales&#39;</span>)</span>
+<span id="cb59-2"><a href="#cb59-2" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">&quot;Sales Per Year&quot;</span>)</span>
+<span id="cb59-3"><a href="#cb59-3" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output display_data">
+<p><img
+src="vertopal_dca6b43452e744cfb85183327967815b/9e5b5514045bf2b6a5bd4e747f6fefc85742d129.png" /></p>
+</div>
+</div>
+<div class="cell markdown">
+<p>Conclusions made are:</p>
+<ul>
+<li><p>Our sales is increasing Year by Year. This can be said because we
+have only 7 months data for 2015 but in those 7 months only er have
+almost same sales as last year.</p></li>
+<li><p>This is a good news fro our sales.</p></li>
+</ul>
+</div>
+<section id="sales-per-month" class="cell markdown">
+<h5>Sales Per Month</h5>
+</section>
+<div class="cell code" data-execution_count="42">
+<div class="sourceCode" id="cb60"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb60-1"><a href="#cb60-1" aria-hidden="true" tabindex="-1"></a>sns.barplot(data<span class="op">=</span>merged_train_data, x<span class="op">=</span><span class="st">&#39;Month&#39;</span>, y<span class="op">=</span><span class="st">&#39;Sales&#39;</span>)</span>
+<span id="cb60-2"><a href="#cb60-2" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">&quot;Sales Per Month&quot;</span>)</span>
+<span id="cb60-3"><a href="#cb60-3" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output display_data">
+<p><img
+src="vertopal_dca6b43452e744cfb85183327967815b/17e80f019c2c2194d0c76952fdde1eef8c4fcefe.png" /></p>
+</div>
+</div>
+<div class="cell markdown">
+<p>Conclusions made are:</p>
+<ul>
+<li><p>We have highest sales in the month of "December". May be because
+of festival season promos, etc.</p></li>
+<li><p>For other months we have fluctuating/ unstable graph, which is
+difficult to predict sales.</p></li>
+</ul>
+</div>
+<section id="traintestvalidation-split" class="cell markdown">
+<h3>Train/Test/Validation Split</h3>
+<p>The data already contains a test set, which contains over one month
+of data after the end of the training set. We can apply a similar
+strategy to create a validation set. We'll the last 25% of rows for the
+validation set, after ordering by date</p>
+</section>
+<div class="cell code" data-execution_count="43">
+<div class="sourceCode" id="cb61"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb61-1"><a href="#cb61-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Here I find the length of the merged train data</span></span>
+<span id="cb61-2"><a href="#cb61-2" aria-hidden="true" tabindex="-1"></a><span class="bu">len</span>(merged_train_data)</span></code></pre></div>
+<div class="output execute_result" data-execution_count="43">
+<pre><code>844392</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="44">
+<div class="sourceCode" id="cb63"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb63-1"><a href="#cb63-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Here I find out the 75% of train data</span></span>
+<span id="cb63-2"><a href="#cb63-2" aria-hidden="true" tabindex="-1"></a>train_size <span class="op">=</span> <span class="bu">int</span>(<span class="fl">0.75</span> <span class="op">*</span> <span class="bu">len</span>(merged_train_data))</span>
+<span id="cb63-3"><a href="#cb63-3" aria-hidden="true" tabindex="-1"></a>train_size</span></code></pre></div>
+<div class="output execute_result" data-execution_count="44">
+<pre><code>633294</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="45">
+<div class="sourceCode" id="cb65"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb65-1"><a href="#cb65-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Sorting the train merged data based on &quot;Date&quot;</span></span>
+<span id="cb65-2"><a href="#cb65-2" aria-hidden="true" tabindex="-1"></a>sorted_data <span class="op">=</span> merged_train_data.sort_values(<span class="st">&quot;Date&quot;</span>)</span>
+<span id="cb65-3"><a href="#cb65-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb65-4"><a href="#cb65-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Dividing the dataset into train as well as validation data</span></span>
+<span id="cb65-5"><a href="#cb65-5" aria-hidden="true" tabindex="-1"></a>train_df, val_df <span class="op">=</span> sorted_data[:train_size], sorted_data[train_size:]</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="46">
+<div class="sourceCode" id="cb66"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb66-1"><a href="#cb66-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Just checking the correct timeline of train data</span></span>
+<span id="cb66-2"><a href="#cb66-2" aria-hidden="true" tabindex="-1"></a>train_df.Date.<span class="bu">min</span>(), train_df.Date.<span class="bu">max</span>()</span></code></pre></div>
+<div class="output execute_result" data-execution_count="46">
+<pre><code>(Timestamp(&#39;2013-01-01 00:00:00&#39;), Timestamp(&#39;2014-12-10 00:00:00&#39;))</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="47">
+<div class="sourceCode" id="cb68"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb68-1"><a href="#cb68-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Similarly Checking the timeline of test data if it is correct or not</span></span>
+<span id="cb68-2"><a href="#cb68-2" aria-hidden="true" tabindex="-1"></a>val_df.Date.<span class="bu">min</span>(), val_df.Date.<span class="bu">max</span>()</span></code></pre></div>
+<div class="output execute_result" data-execution_count="47">
+<pre><code>(Timestamp(&#39;2014-12-10 00:00:00&#39;), Timestamp(&#39;2015-07-31 00:00:00&#39;))</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="48">
+<div class="sourceCode" id="cb70"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb70-1"><a href="#cb70-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Ler&#39;s Check the Columns</span></span>
+<span id="cb70-2"><a href="#cb70-2" aria-hidden="true" tabindex="-1"></a>train_df.columns</span></code></pre></div>
+<div class="output execute_result" data-execution_count="48">
+<pre><code>Index([&#39;Store&#39;, &#39;DayOfWeek&#39;, &#39;Date&#39;, &#39;Sales&#39;, &#39;Customers&#39;, &#39;Open&#39;, &#39;Promo&#39;,
+       &#39;StateHoliday&#39;, &#39;SchoolHoliday&#39;, &#39;StoreType&#39;, &#39;Assortment&#39;,
+       &#39;CompetitionDistance&#39;, &#39;CompetitionOpenSinceMonth&#39;,
+       &#39;CompetitionOpenSinceYear&#39;, &#39;Promo2&#39;, &#39;Promo2SinceWeek&#39;,
+       &#39;Promo2SinceYear&#39;, &#39;PromoInterval&#39;, &#39;Day&#39;, &#39;Month&#39;, &#39;Year&#39;],
+      dtype=&#39;object&#39;)</code></pre>
+</div>
+</div>
+<section id="input-and-target-columns" class="cell markdown">
+<h3>Input and Target columns</h3>
+<p>Let's also identify input and target columns. Note that we can't use
+the no. of customers as an input, because this information isn't
+available beforehand. Also, we needn't use all the available columns, we
+can start out with just a small subset.</p>
+</section>
+<div class="cell code" data-execution_count="49">
+<div class="sourceCode" id="cb72"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb72-1"><a href="#cb72-1" aria-hidden="true" tabindex="-1"></a>input_cols <span class="op">=</span> [<span class="st">&#39;Store&#39;</span>, <span class="st">&#39;DayOfWeek&#39;</span>, <span class="st">&#39;Promo&#39;</span>, <span class="st">&#39;StateHoliday&#39;</span>, <span class="st">&#39;StoreType&#39;</span>, <span class="st">&#39;Assortment&#39;</span>, <span class="st">&#39;Day&#39;</span>, <span class="st">&#39;Month&#39;</span>, <span class="st">&#39;Year&#39;</span>]</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="50">
+<div class="sourceCode" id="cb73"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb73-1"><a href="#cb73-1" aria-hidden="true" tabindex="-1"></a>target_col <span class="op">=</span> <span class="st">&quot;Sales&quot;</span></span></code></pre></div>
+</div>
+<div class="cell markdown">
+<p>Let's also separate out numeric and categorical columns.</p>
+</div>
+<div class="cell code" data-execution_count="51">
+<div class="sourceCode" id="cb74"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb74-1"><a href="#cb74-1" aria-hidden="true" tabindex="-1"></a>merged_train_data[input_cols].nunique()</span></code></pre></div>
+<div class="output execute_result" data-execution_count="51">
+<pre><code>Store           1115
+DayOfWeek          7
+Promo              2
+StateHoliday       4
+StoreType          4
+Assortment         3
+Day               31
+Month             12
+Year               3
+dtype: int64</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="52">
+<div class="sourceCode" id="cb76"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb76-1"><a href="#cb76-1" aria-hidden="true" tabindex="-1"></a>train_inputs <span class="op">=</span> train_df[input_cols].copy()</span>
+<span id="cb76-2"><a href="#cb76-2" aria-hidden="true" tabindex="-1"></a>train_targets <span class="op">=</span> train_df[target_col].copy()</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="53">
+<div class="sourceCode" id="cb77"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb77-1"><a href="#cb77-1" aria-hidden="true" tabindex="-1"></a>train_inputs[<span class="st">&quot;StateHoliday&quot;</span>].unique()</span></code></pre></div>
+<div class="output execute_result" data-execution_count="53">
+<pre><code>array([&#39;a&#39;, &#39;NotHoliday&#39;, &#39;b&#39;, &#39;c&#39;], dtype=object)</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="54">
+<div class="sourceCode" id="cb79"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb79-1"><a href="#cb79-1" aria-hidden="true" tabindex="-1"></a>val_inputs <span class="op">=</span> val_df[input_cols].copy()</span>
+<span id="cb79-2"><a href="#cb79-2" aria-hidden="true" tabindex="-1"></a>val_targets <span class="op">=</span> val_df[target_col].copy()</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="55">
+<div class="sourceCode" id="cb80"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb80-1"><a href="#cb80-1" aria-hidden="true" tabindex="-1"></a>test_inputs <span class="op">=</span> merged_test_data[input_cols].copy()</span>
+<span id="cb80-2"><a href="#cb80-2" aria-hidden="true" tabindex="-1"></a><span class="co"># Test data does not have targets</span></span></code></pre></div>
+</div>
+<div class="cell markdown">
+<p>Note that some columns can be treated as both numeric and
+categorical, and it's up to you to decide how you want to deal with
+them.</p>
+</div>
+<div class="cell code" data-execution_count="56">
+<div class="sourceCode" id="cb81"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb81-1"><a href="#cb81-1" aria-hidden="true" tabindex="-1"></a>numeric_cols <span class="op">=</span> [<span class="st">&#39;Store&#39;</span>, <span class="st">&#39;Day&#39;</span>, <span class="st">&#39;Month&#39;</span>, <span class="st">&#39;Year&#39;</span>]</span>
+<span id="cb81-2"><a href="#cb81-2" aria-hidden="true" tabindex="-1"></a>categorical_cols <span class="op">=</span> [<span class="st">&#39;DayOfWeek&#39;</span>, <span class="st">&#39;Promo&#39;</span>, <span class="st">&#39;StateHoliday&#39;</span>, <span class="st">&#39;StoreType&#39;</span>, <span class="st">&#39;Assortment&#39;</span>]</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="57">
+<div class="sourceCode" id="cb82"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb82-1"><a href="#cb82-1" aria-hidden="true" tabindex="-1"></a>categorical_cols</span></code></pre></div>
+<div class="output execute_result" data-execution_count="57">
+<pre><code>[&#39;DayOfWeek&#39;, &#39;Promo&#39;, &#39;StateHoliday&#39;, &#39;StoreType&#39;, &#39;Assortment&#39;]</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="58">
+<div class="sourceCode" id="cb84"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb84-1"><a href="#cb84-1" aria-hidden="true" tabindex="-1"></a>train_inputs</span></code></pre></div>
+<div class="output execute_result" data-execution_count="58">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Store</th>
+      <th>DayOfWeek</th>
+      <th>Promo</th>
+      <th>StateHoliday</th>
+      <th>StoreType</th>
+      <th>Assortment</th>
+      <th>Day</th>
+      <th>Month</th>
+      <th>Year</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>1017190</th>
+      <td>1097</td>
+      <td>Tue</td>
+      <td>b</td>
+      <td>a</td>
+      <td>b</td>
+      <td>b</td>
+      <td>1</td>
+      <td>1</td>
+      <td>2013</td>
+    </tr>
+    <tr>
+      <th>1016179</th>
+      <td>85</td>
+      <td>Tue</td>
+      <td>b</td>
+      <td>a</td>
+      <td>b</td>
+      <td>a</td>
+      <td>1</td>
+      <td>1</td>
+      <td>2013</td>
+    </tr>
+    <tr>
+      <th>1016353</th>
+      <td>259</td>
+      <td>Tue</td>
+      <td>b</td>
+      <td>a</td>
+      <td>b</td>
+      <td>b</td>
+      <td>1</td>
+      <td>1</td>
+      <td>2013</td>
+    </tr>
+    <tr>
+      <th>1016356</th>
+      <td>262</td>
+      <td>Tue</td>
+      <td>b</td>
+      <td>a</td>
+      <td>b</td>
+      <td>a</td>
+      <td>1</td>
+      <td>1</td>
+      <td>2013</td>
+    </tr>
+    <tr>
+      <th>1016368</th>
+      <td>274</td>
+      <td>Tue</td>
+      <td>b</td>
+      <td>a</td>
+      <td>b</td>
+      <td>b</td>
+      <td>1</td>
+      <td>1</td>
+      <td>2013</td>
+    </tr>
+    <tr>
+      <th>...</th>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+    </tr>
+    <tr>
+      <th>256632</th>
+      <td>745</td>
+      <td>Wed</td>
+      <td>b</td>
+      <td>NotHoliday</td>
+      <td>a</td>
+      <td>a</td>
+      <td>10</td>
+      <td>12</td>
+      <td>2014</td>
+    </tr>
+    <tr>
+      <th>256642</th>
+      <td>756</td>
+      <td>Wed</td>
+      <td>b</td>
+      <td>NotHoliday</td>
+      <td>a</td>
+      <td>c</td>
+      <td>10</td>
+      <td>12</td>
+      <td>2014</td>
+    </tr>
+    <tr>
+      <th>256634</th>
+      <td>747</td>
+      <td>Wed</td>
+      <td>b</td>
+      <td>NotHoliday</td>
+      <td>c</td>
+      <td>c</td>
+      <td>10</td>
+      <td>12</td>
+      <td>2014</td>
+    </tr>
+    <tr>
+      <th>256633</th>
+      <td>746</td>
+      <td>Wed</td>
+      <td>b</td>
+      <td>NotHoliday</td>
+      <td>d</td>
+      <td>c</td>
+      <td>10</td>
+      <td>12</td>
+      <td>2014</td>
+    </tr>
+    <tr>
+      <th>256636</th>
+      <td>749</td>
+      <td>Wed</td>
+      <td>b</td>
+      <td>NotHoliday</td>
+      <td>a</td>
+      <td>a</td>
+      <td>10</td>
+      <td>12</td>
+      <td>2014</td>
+    </tr>
+  </tbody>
+</table>
+<p>633294 rows × 9 columns</p>
+</div>
+</div>
+</div>
+<section id="imputation-scaling-and-encode" class="cell markdown">
+<h3>Imputation, Scaling and Encode</h3>
+<p>Let's impute missing data from numeric columns.</p>
+</section>
+<div class="cell code" data-execution_count="59">
+<div class="sourceCode" id="cb85"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb85-1"><a href="#cb85-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.impute <span class="im">import</span> SimpleImputer</span>
+<span id="cb85-2"><a href="#cb85-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb85-3"><a href="#cb85-3" aria-hidden="true" tabindex="-1"></a>imputer <span class="op">=</span> SimpleImputer(strategy<span class="op">=</span><span class="st">&#39;mean&#39;</span>).fit(train_inputs[numeric_cols])</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="60">
+<div class="sourceCode" id="cb86"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb86-1"><a href="#cb86-1" aria-hidden="true" tabindex="-1"></a>train_inputs[numeric_cols] <span class="op">=</span> imputer.transform(train_inputs[numeric_cols])</span>
+<span id="cb86-2"><a href="#cb86-2" aria-hidden="true" tabindex="-1"></a>val_inputs[numeric_cols] <span class="op">=</span> imputer.transform(val_inputs[numeric_cols])</span>
+<span id="cb86-3"><a href="#cb86-3" aria-hidden="true" tabindex="-1"></a>test_inputs[numeric_cols] <span class="op">=</span> imputer.transform(test_inputs[numeric_cols])</span></code></pre></div>
+</div>
+<div class="cell markdown">
+<p>Note: We can apply a different imputation strategy to different
+columns depending on their distributions (e.g. mean for normally
+distribute and median for exponentially distributed).</p>
+</div>
+<div class="cell markdown">
+<p>Let's also scale the values to the <span
+class="math inline">(0,1)</span> range.</p>
+</div>
+<div class="cell code" data-execution_count="61">
+<div class="sourceCode" id="cb87"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb87-1"><a href="#cb87-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.preprocessing <span class="im">import</span> MinMaxScaler</span>
+<span id="cb87-2"><a href="#cb87-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb87-3"><a href="#cb87-3" aria-hidden="true" tabindex="-1"></a>scaler <span class="op">=</span> MinMaxScaler().fit(train_inputs[numeric_cols])</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="62">
+<div class="sourceCode" id="cb88"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb88-1"><a href="#cb88-1" aria-hidden="true" tabindex="-1"></a>train_inputs[numeric_cols] <span class="op">=</span> scaler.transform(train_inputs[numeric_cols])</span>
+<span id="cb88-2"><a href="#cb88-2" aria-hidden="true" tabindex="-1"></a>val_inputs[numeric_cols] <span class="op">=</span> scaler.transform(val_inputs[numeric_cols])</span>
+<span id="cb88-3"><a href="#cb88-3" aria-hidden="true" tabindex="-1"></a>test_inputs[numeric_cols] <span class="op">=</span> scaler.transform(test_inputs[numeric_cols])</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="63">
+<div class="sourceCode" id="cb89"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb89-1"><a href="#cb89-1" aria-hidden="true" tabindex="-1"></a>train_inputs.columns</span></code></pre></div>
+<div class="output execute_result" data-execution_count="63">
+<pre><code>Index([&#39;Store&#39;, &#39;DayOfWeek&#39;, &#39;Promo&#39;, &#39;StateHoliday&#39;, &#39;StoreType&#39;,
+       &#39;Assortment&#39;, &#39;Day&#39;, &#39;Month&#39;, &#39;Year&#39;],
+      dtype=&#39;object&#39;)</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="64">
+<div class="sourceCode" id="cb91"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb91-1"><a href="#cb91-1" aria-hidden="true" tabindex="-1"></a>train_inputs[numeric_cols]</span></code></pre></div>
+<div class="output execute_result" data-execution_count="64">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Store</th>
+      <th>Day</th>
+      <th>Month</th>
+      <th>Year</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>1017190</th>
+      <td>0.983842</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+    </tr>
+    <tr>
+      <th>1016179</th>
+      <td>0.075404</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+    </tr>
+    <tr>
+      <th>1016353</th>
+      <td>0.231598</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+    </tr>
+    <tr>
+      <th>1016356</th>
+      <td>0.234291</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+    </tr>
+    <tr>
+      <th>1016368</th>
+      <td>0.245063</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+    </tr>
+    <tr>
+      <th>...</th>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+    </tr>
+    <tr>
+      <th>256632</th>
+      <td>0.667864</td>
+      <td>0.3</td>
+      <td>1.0</td>
+      <td>1.0</td>
+    </tr>
+    <tr>
+      <th>256642</th>
+      <td>0.677738</td>
+      <td>0.3</td>
+      <td>1.0</td>
+      <td>1.0</td>
+    </tr>
+    <tr>
+      <th>256634</th>
+      <td>0.669659</td>
+      <td>0.3</td>
+      <td>1.0</td>
+      <td>1.0</td>
+    </tr>
+    <tr>
+      <th>256633</th>
+      <td>0.668761</td>
+      <td>0.3</td>
+      <td>1.0</td>
+      <td>1.0</td>
+    </tr>
+    <tr>
+      <th>256636</th>
+      <td>0.671454</td>
+      <td>0.3</td>
+      <td>1.0</td>
+      <td>1.0</td>
+    </tr>
+  </tbody>
+</table>
+<p>633294 rows × 4 columns</p>
+</div>
+</div>
+</div>
+<div class="cell code" data-execution_count="65">
+<div class="sourceCode" id="cb92"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb92-1"><a href="#cb92-1" aria-hidden="true" tabindex="-1"></a>train_inputs[categorical_cols]</span></code></pre></div>
+<div class="output execute_result" data-execution_count="65">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>DayOfWeek</th>
+      <th>Promo</th>
+      <th>StateHoliday</th>
+      <th>StoreType</th>
+      <th>Assortment</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>1017190</th>
+      <td>Tue</td>
+      <td>b</td>
+      <td>a</td>
+      <td>b</td>
+      <td>b</td>
+    </tr>
+    <tr>
+      <th>1016179</th>
+      <td>Tue</td>
+      <td>b</td>
+      <td>a</td>
+      <td>b</td>
+      <td>a</td>
+    </tr>
+    <tr>
+      <th>1016353</th>
+      <td>Tue</td>
+      <td>b</td>
+      <td>a</td>
+      <td>b</td>
+      <td>b</td>
+    </tr>
+    <tr>
+      <th>1016356</th>
+      <td>Tue</td>
+      <td>b</td>
+      <td>a</td>
+      <td>b</td>
+      <td>a</td>
+    </tr>
+    <tr>
+      <th>1016368</th>
+      <td>Tue</td>
+      <td>b</td>
+      <td>a</td>
+      <td>b</td>
+      <td>b</td>
+    </tr>
+    <tr>
+      <th>...</th>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+    </tr>
+    <tr>
+      <th>256632</th>
+      <td>Wed</td>
+      <td>b</td>
+      <td>NotHoliday</td>
+      <td>a</td>
+      <td>a</td>
+    </tr>
+    <tr>
+      <th>256642</th>
+      <td>Wed</td>
+      <td>b</td>
+      <td>NotHoliday</td>
+      <td>a</td>
+      <td>c</td>
+    </tr>
+    <tr>
+      <th>256634</th>
+      <td>Wed</td>
+      <td>b</td>
+      <td>NotHoliday</td>
+      <td>c</td>
+      <td>c</td>
+    </tr>
+    <tr>
+      <th>256633</th>
+      <td>Wed</td>
+      <td>b</td>
+      <td>NotHoliday</td>
+      <td>d</td>
+      <td>c</td>
+    </tr>
+    <tr>
+      <th>256636</th>
+      <td>Wed</td>
+      <td>b</td>
+      <td>NotHoliday</td>
+      <td>a</td>
+      <td>a</td>
+    </tr>
+  </tbody>
+</table>
+<p>633294 rows × 5 columns</p>
+</div>
+</div>
+</div>
+<div class="cell markdown">
+<p>Finally, let's encode categorical columns as one-hot vectors.</p>
+</div>
+<div class="cell code" data-execution_count="66">
+<div class="sourceCode" id="cb93"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb93-1"><a href="#cb93-1" aria-hidden="true" tabindex="-1"></a><span class="co"># dummy_data = pd.get_dummies(train_inputs[[&#39;DayOfWeek&#39;, &#39;Promo&#39;, &#39;StateHoliday&#39;, &#39;StoreType&#39;, &#39;Assortment&#39;]]</span></span>
+<span id="cb93-2"><a href="#cb93-2" aria-hidden="true" tabindex="-1"></a><span class="co"># )</span></span>
+<span id="cb93-3"><a href="#cb93-3" aria-hidden="true" tabindex="-1"></a><span class="co"># dummy_data.head()</span></span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="67">
+<div class="sourceCode" id="cb94"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb94-1"><a href="#cb94-1" aria-hidden="true" tabindex="-1"></a>train_inputs[categorical_cols].nunique()</span></code></pre></div>
+<div class="output execute_result" data-execution_count="67">
+<pre><code>DayOfWeek       7
+Promo           2
+StateHoliday    4
+StoreType       4
+Assortment      3
+dtype: int64</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="68">
+<div class="sourceCode" id="cb96"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb96-1"><a href="#cb96-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.preprocessing <span class="im">import</span> OneHotEncoder</span>
+<span id="cb96-2"><a href="#cb96-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb96-3"><a href="#cb96-3" aria-hidden="true" tabindex="-1"></a>encoder <span class="op">=</span> OneHotEncoder(sparse<span class="op">=</span><span class="va">False</span>, handle_unknown<span class="op">=</span><span class="st">&#39;ignore&#39;</span>).fit(train_inputs[categorical_cols])</span>
+<span id="cb96-4"><a href="#cb96-4" aria-hidden="true" tabindex="-1"></a>encoded_cols <span class="op">=</span> <span class="bu">list</span>(encoder.get_feature_names_out(categorical_cols))</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="69">
+<div class="sourceCode" id="cb97"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb97-1"><a href="#cb97-1" aria-hidden="true" tabindex="-1"></a><span class="co"># train_inputs[encoded_cols] = pd.get_dummies(train_inputs[[&#39;DayOfWeek&#39;, &#39;Promo&#39;, &#39;StateHoliday&#39;, &#39;StoreType&#39;, &#39;Assortment&#39;]])</span></span>
+<span id="cb97-2"><a href="#cb97-2" aria-hidden="true" tabindex="-1"></a><span class="co"># val_inputs[encoded_cols] = pd.get_dummies(val_inputs[[&#39;DayOfWeek&#39;, &#39;Promo&#39;, &#39;StateHoliday&#39;, &#39;StoreType&#39;, &#39;Assortment&#39;]])</span></span>
+<span id="cb97-3"><a href="#cb97-3" aria-hidden="true" tabindex="-1"></a><span class="co"># test_inputs[encoded_cols]  = pd.get_dummies(test_inputs[[&#39;DayOfWeek&#39;, &#39;Promo&#39;, &#39;StateHoliday&#39;, &#39;StoreType&#39;, &#39;Assortment&#39;]])</span></span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="70">
+<div class="sourceCode" id="cb98"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb98-1"><a href="#cb98-1" aria-hidden="true" tabindex="-1"></a>train_inputs[encoded_cols] <span class="op">=</span> encoder.transform(train_inputs[categorical_cols])</span>
+<span id="cb98-2"><a href="#cb98-2" aria-hidden="true" tabindex="-1"></a>val_inputs[encoded_cols] <span class="op">=</span> encoder.transform(val_inputs[categorical_cols])</span>
+<span id="cb98-3"><a href="#cb98-3" aria-hidden="true" tabindex="-1"></a>test_inputs[encoded_cols] <span class="op">=</span> encoder.transform(test_inputs[categorical_cols])</span></code></pre></div>
+</div>
+<div class="cell markdown">
+<p>Explore the <code>scikit-learn</code> preprocessing module: <a
+href="https://scikit-learn.org/stable/modules/preprocessing.html"
+class="uri">https://scikit-learn.org/stable/modules/preprocessing.html</a></p>
+</div>
+<div class="cell markdown">
+<p>Let's now extract out the numeric data.</p>
+</div>
+<div class="cell code" data-execution_count="71">
+<div class="sourceCode" id="cb99"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb99-1"><a href="#cb99-1" aria-hidden="true" tabindex="-1"></a>X_train <span class="op">=</span> train_inputs[numeric_cols <span class="op">+</span> encoded_cols]</span>
+<span id="cb99-2"><a href="#cb99-2" aria-hidden="true" tabindex="-1"></a>X_val <span class="op">=</span> val_inputs[numeric_cols <span class="op">+</span> encoded_cols]</span>
+<span id="cb99-3"><a href="#cb99-3" aria-hidden="true" tabindex="-1"></a>X_test <span class="op">=</span> test_inputs[numeric_cols <span class="op">+</span> encoded_cols]</span></code></pre></div>
+</div>
+<div class="cell markdown">
+<p>A quick baseline model helps establish the minimum score any ML model
+you train should achieve.</p>
+<h3 id="fixedrandom-guess">Fixed/Random Guess</h3>
+<p>Let's define a model that always returns the mean value of Sales as
+the prediction.</p>
+</div>
+<div class="cell code" data-execution_count="72">
+<div class="sourceCode" id="cb100"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb100-1"><a href="#cb100-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> return_mean(inputs):</span>
+<span id="cb100-2"><a href="#cb100-2" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> np.full(<span class="bu">len</span>(inputs), merged_train_data.Sales.mean())</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="73">
+<div class="sourceCode" id="cb101"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb101-1"><a href="#cb101-1" aria-hidden="true" tabindex="-1"></a>train_preds <span class="op">=</span> return_mean(X_train)</span>
+<span id="cb101-2"><a href="#cb101-2" aria-hidden="true" tabindex="-1"></a>train_preds</span></code></pre></div>
+<div class="output execute_result" data-execution_count="73">
+<pre><code>array([6955.51429076, 6955.51429076, 6955.51429076, ..., 6955.51429076,
+       6955.51429076, 6955.51429076])</code></pre>
+</div>
+</div>
+<div class="cell markdown">
+<p>Let's evaluate this to using the RMSE score.</p>
+</div>
+<div class="cell code" data-execution_count="74">
+<div class="sourceCode" id="cb103"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb103-1"><a href="#cb103-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.metrics <span class="im">import</span> mean_squared_error</span>
+<span id="cb103-2"><a href="#cb103-2" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Train RMSE:&quot;</span>, (mean_squared_error(train_preds, train_targets, squared<span class="op">=</span><span class="va">False</span>)))</span>
+<span id="cb103-3"><a href="#cb103-3" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Validation RMSE:&quot;</span>, (mean_squared_error(return_mean(X_val), val_targets, squared<span class="op">=</span><span class="va">False</span>)))</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Train RMSE: 3082.450443277419
+Validation RMSE: 3168.6033635047716
+</code></pre>
+</div>
+</div>
+<div class="cell markdown">
+<p>The model is off by about $3000 on average.</p>
+</div>
+<div class="cell markdown">
+<p>Let's try another model.</p>
+<h3 id="linear-models">Linear Models</h3>
+<p>Read about linear models here: <a
+href="https://scikit-learn.org/stable/modules/linear_model.html"
+class="uri">https://scikit-learn.org/stable/modules/linear_model.html</a></p>
+</div>
+<div class="cell code" data-execution_count="75">
+<div class="sourceCode" id="cb105"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb105-1"><a href="#cb105-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.linear_model <span class="im">import</span> LinearRegression, Ridge, Lasso, ElasticNet, SGDRegressor</span></code></pre></div>
+</div>
+<div class="cell markdown">
+<p>The we have fit the model, the model can now be used to make
+predictions. Note that the parameters of the model will not be updated
+during prediction.</p>
+<p>Let's define a function <code>try_model</code>, which takes a model,
+then performs training and evaluation.</p>
+</div>
+<div class="cell code" data-execution_count="76">
+<div class="sourceCode" id="cb106"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb106-1"><a href="#cb106-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> try_model(model):</span>
+<span id="cb106-2"><a href="#cb106-2" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Fit the model</span></span>
+<span id="cb106-3"><a href="#cb106-3" aria-hidden="true" tabindex="-1"></a>    model.fit(X_train, train_targets)</span>
+<span id="cb106-4"><a href="#cb106-4" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb106-5"><a href="#cb106-5" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Generate predictions</span></span>
+<span id="cb106-6"><a href="#cb106-6" aria-hidden="true" tabindex="-1"></a>    train_preds <span class="op">=</span> model.predict(X_train)</span>
+<span id="cb106-7"><a href="#cb106-7" aria-hidden="true" tabindex="-1"></a>    val_preds <span class="op">=</span> model.predict(X_val)</span>
+<span id="cb106-8"><a href="#cb106-8" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb106-9"><a href="#cb106-9" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Compute RMSE</span></span>
+<span id="cb106-10"><a href="#cb106-10" aria-hidden="true" tabindex="-1"></a>    train_rmse <span class="op">=</span> mean_squared_error(train_targets, train_preds, squared<span class="op">=</span><span class="va">False</span>)</span>
+<span id="cb106-11"><a href="#cb106-11" aria-hidden="true" tabindex="-1"></a>    val_rmse <span class="op">=</span> mean_squared_error(val_targets, val_preds, squared<span class="op">=</span><span class="va">False</span>)</span>
+<span id="cb106-12"><a href="#cb106-12" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> train_rmse, val_rmse</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="77">
+<div class="sourceCode" id="cb107"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb107-1"><a href="#cb107-1" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;LinearRegression RMSE:&quot;</span>, (try_model(LinearRegression())))</span>
+<span id="cb107-2"><a href="#cb107-2" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Ridge RMSE:&quot;</span>, (try_model(Ridge())))</span>
+<span id="cb107-3"><a href="#cb107-3" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Lasso RMSE:&quot;</span>, (try_model(Lasso())))</span>
+<span id="cb107-4"><a href="#cb107-4" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;ElasticNet RMSE:&quot;</span>, (try_model(ElasticNet())))</span>
+<span id="cb107-5"><a href="#cb107-5" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;SGDRegressor RMSE:&quot;</span>, (try_model(SGDRegressor())))</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>LinearRegression RMSE: (2741.6151564591687, 2818.6208020481854)
+Ridge RMSE: (2741.5871950814444, 2817.7784665409863)
+Lasso RMSE: (2741.7143904423046, 2817.947292467132)
+ElasticNet RMSE: (2879.0432606713075, 2972.665944772612)
+SGDRegressor RMSE: (2741.735781029862, 2819.2298960871985)
+</code></pre>
+</div>
+</div>
+<section id="tree-based-models" class="cell markdown">
+<h3>Tree Based Models</h3>
+<ul>
+<li>Decision trees: <a
+href="https://scikit-learn.org/stable/modules/tree.html"
+class="uri">https://scikit-learn.org/stable/modules/tree.html</a></li>
+<li>Random forests and gradient boosting: <a
+href="https://scikit-learn.org/stable/modules/ensemble.html"
+class="uri">https://scikit-learn.org/stable/modules/ensemble.html</a></li>
+</ul>
+</section>
+<div class="cell code" data-execution_count="78">
+<div class="sourceCode" id="cb109"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb109-1"><a href="#cb109-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.tree <span class="im">import</span> DecisionTreeRegressor, plot_tree</span>
+<span id="cb109-2"><a href="#cb109-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb109-3"><a href="#cb109-3" aria-hidden="true" tabindex="-1"></a>tree <span class="op">=</span> DecisionTreeRegressor(random_state<span class="op">=</span><span class="dv">42</span>)</span>
+<span id="cb109-4"><a href="#cb109-4" aria-hidden="true" tabindex="-1"></a>try_model(tree)</span></code></pre></div>
+<div class="output execute_result" data-execution_count="78">
+<pre><code>(0.0, 1595.937191783755)</code></pre>
+</div>
+</div>
+<div class="cell markdown">
+<p>Seems like the decision tree performs much better than linear
+models.</p>
+</div>
+<div class="cell code" data-execution_count="79">
+<div class="sourceCode" id="cb111"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb111-1"><a href="#cb111-1" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize<span class="op">=</span>(<span class="dv">40</span>, <span class="dv">20</span>))</span>
+<span id="cb111-2"><a href="#cb111-2" aria-hidden="true" tabindex="-1"></a>plot_tree(tree, max_depth<span class="op">=</span><span class="dv">3</span>, filled<span class="op">=</span><span class="va">True</span>, feature_names<span class="op">=</span>numeric_cols<span class="op">+</span>encoded_cols)<span class="op">;</span></span></code></pre></div>
+<div class="output display_data">
+<p><img
+src="vertopal_dca6b43452e744cfb85183327967815b/42c720009d14377cef59492fee72f1e05633dc39.png" /></p>
+</div>
+</div>
+<div class="cell markdown">
+<p>Let's try a random forest.</p>
+</div>
+<div class="cell code" data-execution_count="80">
+<div class="sourceCode" id="cb112"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb112-1"><a href="#cb112-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.ensemble <span class="im">import</span> RandomForestRegressor</span>
+<span id="cb112-2"><a href="#cb112-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb112-3"><a href="#cb112-3" aria-hidden="true" tabindex="-1"></a>rf <span class="op">=</span> RandomForestRegressor(random_state<span class="op">=</span><span class="dv">42</span>, n_jobs<span class="op">=-</span><span class="dv">1</span>)</span>
+<span id="cb112-4"><a href="#cb112-4" aria-hidden="true" tabindex="-1"></a>try_model(rf)</span></code></pre></div>
+<div class="output execute_result" data-execution_count="80">
+<pre><code>(474.9717676695841, 1373.0408412415534)</code></pre>
+</div>
+</div>
+<div class="cell markdown">
+<p>We've seen a significant reduction in the loss by using a random
+forest.</p>
+</div>
+<div class="cell code" data-execution_count="81">
+<div class="sourceCode" id="cb114"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb114-1"><a href="#cb114-1" aria-hidden="true" tabindex="-1"></a>X_train.columns</span></code></pre></div>
+<div class="output execute_result" data-execution_count="81">
+<pre><code>Index([&#39;Store&#39;, &#39;Day&#39;, &#39;Month&#39;, &#39;Year&#39;, &#39;DayOfWeek_Fri&#39;, &#39;DayOfWeek_Mon&#39;,
+       &#39;DayOfWeek_Sat&#39;, &#39;DayOfWeek_Sun&#39;, &#39;DayOfWeek_Thu&#39;, &#39;DayOfWeek_Tue&#39;,
+       &#39;DayOfWeek_Wed&#39;, &#39;Promo_a&#39;, &#39;Promo_b&#39;, &#39;StateHoliday_NotHoliday&#39;,
+       &#39;StateHoliday_a&#39;, &#39;StateHoliday_b&#39;, &#39;StateHoliday_c&#39;, &#39;StoreType_a&#39;,
+       &#39;StoreType_b&#39;, &#39;StoreType_c&#39;, &#39;StoreType_d&#39;, &#39;Assortment_a&#39;,
+       &#39;Assortment_b&#39;, &#39;Assortment_c&#39;],
+      dtype=&#39;object&#39;)</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="82">
+<div class="sourceCode" id="cb116"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb116-1"><a href="#cb116-1" aria-hidden="true" tabindex="-1"></a>rf.feature_importances_</span></code></pre></div>
+<div class="output execute_result" data-execution_count="82">
+<pre><code>array([6.07350959e-01, 4.87951725e-02, 4.71301094e-02, 9.31018950e-03,
+       5.72984192e-03, 3.37101547e-02, 6.95913381e-03, 4.48987960e-03,
+       2.10148773e-03, 4.41149287e-03, 2.43822222e-03, 5.83469269e-02,
+       8.05201285e-02, 1.18016192e-03, 2.15525999e-04, 2.67800094e-05,
+       1.69783400e-05, 1.43204832e-02, 2.25658314e-02, 1.05710188e-02,
+       1.34606293e-02, 8.38114262e-03, 5.53511672e-03, 1.24326325e-02])</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="83">
+<div class="sourceCode" id="cb118"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb118-1"><a href="#cb118-1" aria-hidden="true" tabindex="-1"></a>importance_df <span class="op">=</span> pd.DataFrame({ </span>
+<span id="cb118-2"><a href="#cb118-2" aria-hidden="true" tabindex="-1"></a>    <span class="st">&#39;feature&#39;</span>: numeric_cols<span class="op">+</span>encoded_cols, </span>
+<span id="cb118-3"><a href="#cb118-3" aria-hidden="true" tabindex="-1"></a>    <span class="st">&#39;importance&#39;</span>: rf.feature_importances_</span>
+<span id="cb118-4"><a href="#cb118-4" aria-hidden="true" tabindex="-1"></a>}).sort_values(<span class="st">&#39;importance&#39;</span>, ascending<span class="op">=</span><span class="va">False</span>)</span>
+<span id="cb118-5"><a href="#cb118-5" aria-hidden="true" tabindex="-1"></a>importance_df.head(<span class="dv">10</span>)</span></code></pre></div>
+<div class="output execute_result" data-execution_count="83">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>feature</th>
+      <th>importance</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>Store</td>
+      <td>0.607351</td>
+    </tr>
+    <tr>
+      <th>12</th>
+      <td>Promo_b</td>
+      <td>0.080520</td>
+    </tr>
+    <tr>
+      <th>11</th>
+      <td>Promo_a</td>
+      <td>0.058347</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>Day</td>
+      <td>0.048795</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>Month</td>
+      <td>0.047130</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>DayOfWeek_Mon</td>
+      <td>0.033710</td>
+    </tr>
+    <tr>
+      <th>18</th>
+      <td>StoreType_b</td>
+      <td>0.022566</td>
+    </tr>
+    <tr>
+      <th>17</th>
+      <td>StoreType_a</td>
+      <td>0.014320</td>
+    </tr>
+    <tr>
+      <th>20</th>
+      <td>StoreType_d</td>
+      <td>0.013461</td>
+    </tr>
+    <tr>
+      <th>23</th>
+      <td>Assortment_c</td>
+      <td>0.012433</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+</div>
+<div class="cell code" data-execution_count="84">
+<div class="sourceCode" id="cb119"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb119-1"><a href="#cb119-1" aria-hidden="true" tabindex="-1"></a>sns.barplot(data<span class="op">=</span>importance_df.head(<span class="dv">10</span>), x<span class="op">=</span><span class="st">&#39;importance&#39;</span>, y<span class="op">=</span><span class="st">&#39;feature&#39;</span>)<span class="op">;</span></span></code></pre></div>
+<div class="output display_data">
+<p><img
+src="vertopal_dca6b43452e744cfb85183327967815b/76cc91cb430384112905298957a74c03dffce665.png" /></p>
+</div>
+</div>
+<div class="cell markdown">
+<p>The above chart can be presented to non-technical stakeholders to
+explain how the model arrives at its result. For greater explainability,
+a single decision tree can be used.</p>
+</div>
+<div class="cell code" data-execution_count="85">
+<div class="sourceCode" id="cb120"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb120-1"><a href="#cb120-1" aria-hidden="true" tabindex="-1"></a>test_preds <span class="op">=</span> rf.predict(X_test)</span>
+<span id="cb120-2"><a href="#cb120-2" aria-hidden="true" tabindex="-1"></a>test_preds</span></code></pre></div>
+<div class="output execute_result" data-execution_count="85">
+<pre><code>array([ 4242.32,  7690.13,  8785.78, ...,  5949.99, 20806.66,  6751.59])</code></pre>
+</div>
+</div>
+<div class="cell markdown">
+<p>Generating scores on the test set.</p>
+</div>
+<div class="cell code">
+<div class="sourceCode" id="cb122"><pre
+class="sourceCode python"><code class="sourceCode python"></code></pre></div>
+</div>
+</body>
+</html>
