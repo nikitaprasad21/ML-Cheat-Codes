@@ -1,0 +1,25 @@
+API (Application Programming Interface)
+
+Q. What is an API?
+
+API is a set of definitions and protocols for integrating and interacting with application software.
+
+
+Q. Types of APIs:
+
+* Web APIs: These are APIs that use web protocols such as HTTP/HTTPS. They are commonly used to enable communication between web services and applications.
+* Library APIs: These are APIs provided by programming libraries to enable developers to use pre-built functions and modules in their applications.
+* Operating System APIs: These APIs provide a set of functions for the interaction between applications and the operating system.
+
+Q. RESTful APIs:
+
+* REST, or Representational State Transfer, is an architectural style for designing networked applications.
+* RESTful APIs are designed based on REST principles. They use standard HTTP methods (`GET, POST, PUT, DELETE`) to perform operations on resources identified by URLs.
+
+Q. Understanding Status Codes
+* `200`: Everything went okay, and the server returned a result (if any).
+* `301`: The server is redirecting you to a different endpoint. (This can happen when a company switches domain names, or when an endpoint's name has changed ).
+* `400`: The server thinks you made a bad request. (This can happen when you don't send the information that the API requires to process your request ).
+* `401`: The server thinks you're not authenticated. (This happens when you don't send the right credentials to access an API ).
+* `403`: The resource you're trying to access is forbidden, and you don't have the right permissions to see it.
+* `404`: The server didn't find the resource you tried to access.
