@@ -1,0 +1,11 @@
+JSON (JavaScript Object Notation)
+
+Q. What is JSON?
+
+* JSON is a lightweight data interchange format.
+* It is easy for humans to read and write and easy for machines to parse and generate.
+
+Q. Data Gathering with JSON:
+
+* Store and exchange data between a server and a client, or between different components of an application.
+* Suitable for representing structured data.
