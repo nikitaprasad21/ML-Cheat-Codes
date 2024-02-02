@@ -1,0 +1,12 @@
+# Web Scraping
+
+Q. What is Web Scraping?
+
+Web scraping is the process of **extracting information from websites**. It involves fetching the web page, parsing its HTML content, and extracting the desired information. 
+
+This technique is used to gather data for various purposes, such as research, analysis, or building datasets.
+
+#### Web Scraping Vs Web Crawling
+
+- Crawler: A crawler, also known as a spider or bot, is a program that systematically browses the internet, following links from one page to another. It is used to index and update web pages in search engine databases. Needs a crawler or crawl agent only. **Deduplication is mandatory**. Crawler follows `robots.txt` file.
+- Scraper: A scraper is a program or script designed to extract specific data from websites. It focuses on fetching and parsing the content of a single page to extract relevant information. Needs a crawler or crawl agent with parser. **Deduplication is not necessary**. Scraper considers itself as a search engine and bypasses the `robots.txt` file.
