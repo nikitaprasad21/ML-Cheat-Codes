@@ -1,0 +1,181 @@
+,comapny_name,company_rating,company_type,head_quarters,No_of_Employee
+0,TCS,3.8,IT Services & Consulting,Mumbai,1 Lakh+ Employees
+1,Accenture,4.0,IT Services & Consulting,Dublin,1 Lakh+ Employees
+2,Cognizant,3.9,IT Services & Consulting,Teaneck. New Jersey.,1 Lakh+ Employees
+3,Wipro,3.8,IT Services & Consulting,Bangalore/Bengaluru,1 Lakh+ Employees
+4,HDFC Bank,3.9,Banking,Mumbai,1 Lakh+ Employees
+5,ICICI Bank,4.0,Banking,Mumbai,1 Lakh+ Employees
+6,Infosys,3.8,IT Services & Consulting,Bengaluru/Bangalore,1 Lakh+ Employees
+7,Capgemini,3.8,IT Services & Consulting,Paris,1 Lakh+ Employees
+8,HCLTech,3.6,IT Services & Consulting,Noida,1 Lakh+ Employees
+9,Tech Mahindra,3.7,IT Services & Consulting,Pune,1 Lakh+ Employees
+10,Genpact,3.9,IT Services & Consulting,New York,1 Lakh+ Employees
+11,Axis Bank,3.8,Banking,Mumbai,50k-1 Lakh Employees
+12,Teleperformance,3.6,BPO,Paris,50k-1 Lakh Employees
+13,Concentrix Corporation,3.9,BPO,Fremont,50k-1 Lakh Employees
+14,Reliance Jio,4.0,Telecom,Navi Mumbai,50k-1 Lakh Employees
+15,Amazon,4.1,Internet,Seattle,1 Lakh+ Employees
+16,IBM,4.1,IT Services & Consulting,Armonk,1 Lakh+ Employees
+17,Larsen & Toubro Limited,4.0,Engineering & Construction,Mumbai,10k-50k Employees
+18,Reliance Retail,3.9,Retail,Navi Mumbai,1 Lakh+ Employees
+19,HDB Financial Services,4.0,NBFC,Ahmedabad,1 Lakh+ Employees
+20,Vodafone Idea,4.2,Telecom,Mumbai,5k-10k Employees
+21,BYJU'S,3.1,EdTech,Bangalore,10k-50k Employees
+22,Kotak Mahindra Bank,3.8,Banking,Mumbai,50k-1 Lakh Employees
+23,Deloitte,3.9,Management Consulting,London,1 Lakh+ Employees
+24,Reliance Industries,4.0,Oil & Gas,Navi Mumbai,1 Lakh+ Employees
+25,Bharti Airtel,4.0,Telecom,Gurgaon/Gurugram,10k-50k Employees
+26,iEnergizer,4.6,BPO,Noida,10k-50k Employees
+27,Tata Motors,4.2,Automobile,Pune,10k-50k Employees
+28,Flipkart,4.1,Internet,Bangalore,10k-50k Employees
+29,WNS,3.5,BPO,Mumbai,10k-50k Employees
+30,IndusInd Bank,3.7,Banking,Gurgaon/Gurugram,10k-50k Employees
+31,Ernst & Young,3.6,Management Consulting,London,50k-1 Lakh Employees
+32,AU Small Finance Bank,4.5,Banking,Jaipur,10k-50k Employees
+33,Mahindra & Mahindra,4.2,Automobile,Mumbai,1 Lakh+ Employees
+34,Infosys BPM,3.9,BPO,Bangalore/Bengaluru,10k-50k Employees
+35,DXC Technology,3.8,IT Services & Consulting,Minato,10k-50k Employees
+36,IDFC FIRST Bank,4.0,Banking,Mumbai,10k-50k Employees
+37,Conneqt Business Solutions,3.7,BPO,Mumbai,10k-50k Employees
+38,HDFC Life,4.1,Insurance,Mumbai,10k-50k Employees
+39,LTIMindtree,3.7,IT Services & Consulting,Bangalore/Bengaluru,50k-1 Lakh Employees
+40,Bajaj Finserv,4.0,Financial Services,Pune,50k-1 Lakh Employees
+41,Mphasis,3.5,IT Services & Consulting,Bangalore/Bengaluru,10k-50k Employees
+42,PwC,3.6,Management Consulting,London,10k-50k Employees
+43,HSBC Group,4.1,Banking,Pune,10k-50k Employees
+44,Startek,3.2,BPO,Mumbai,10k-50k Employees
+45,Hinduja Global Solutions,3.9,IT Services & Consulting,Bangalore/Bengaluru,10k-50k Employees
+46,Samsung,4.1,Consumer Electronics & Appliances,Seoul,50k-1 Lakh Employees
+47,Maruti Suzuki,4.2,Automobile,New Delhi,10k-50k Employees
+48,Ericsson,4.3,Telecom,Stockholm,10k-50k Employees
+49,Shriram Finance,4.1,NBFC,Mumbai,50k-1 Lakh Employees
+50,Asian Paints,4.0,Chemicals,Mumbai,5k-10k Employees
+51,Yes Bank,3.9,Banking,Mumbai,10k-50k Employees
+52,Cipla Pharmaceutical,4.1,Pharma,Mumbai,10k-50k Employees
+53,Dr. Reddy's,4.1,Pharma,Hyderabad/Secunderabad,10k-50k Employees
+54,Sutherland Global Services,3.7,IT Services & Consulting,Pittsford,10k-50k Employees
+55,Bandhan Bank,3.8,Banking,Kolkata,50k-1 Lakh Employees
+56,UltraTech Cement,4.2,Building Material,Mumbai,10k-50k Employees
+57,EXL Service,3.8,Analytics & KPO,New York City,10k-50k Employees
+58,Paytm,3.4,FinTech,Noida,10k-50k Employees
+59,NTT DATA,4.0,IT Services & Consulting,Chiyoda City,10k-50k Employees
+60,ICICI Prudential Life Insurance,4.1,Insurance,Mumbai,10k-50k Employees
+61,Jana Small Finance Bank,3.8,Banking,Bangalore/Bengaluru,10k-50k Employees
+62,Bajaj Finance,4.0,NBFC,Pune,10k-50k Employees
+63,TATA Steel,4.1,Iron & Steel,Mumbai,1 Lakh+ Employees
+64,Lupin,4.1,Pharma,Mumbai,1k-5k Employees
+65,Indian Army,4.7,Defence & Aerospace,New Delhi,1 Lakh+ Employees
+66,HCL Group,3.7,IT Services & Consulting,Chennai,1 Lakh+ Employees
+67,Udaan,4.0,Internet,Bangalore,1k-5k Employees
+68,L&T Infotech,3.8,IT Services & Consulting,Mumbai,10k-50k Employees
+69,ITC,3.9,FMCG,Kolkata,10k-50k Employees
+70,Quess,3.9,BPO,Bangalore,1k-5k Employees
+71,Amazon Development Centre India,4.2,Internet,Hyderabad / Secunderabad,10k-50k Employees
+72,Zydus Lifesciences,4.1,Pharma,Ahmedabad,10k-50k Employees
+73,Wells Fargo,4.0,Financial Services,San Francisco,10k-50k Employees
+74,Delhivery,4.0,Logistics,Delhi,10k-50k Employees
+75,JP Morgan Chase,4.2,Financial Services,New York,50k-1 Lakh Employees
+76,Hindustan Unilever,4.2,FMCG,London,10k-50k Employees
+77,FIS,3.9,FinTech,Jacksonville,10k-50k Employees
+78,IIFL Finance,3.9,NBFC,Mumbai,10k-50k Employees
+79,Hexaware Technologies,3.7,IT Services & Consulting,Mumbai,10k-50k Employees
+80,JSW Steel,3.9,Iron & Steel,Mumbai,10k-50k Employees
+81,Sun Pharmaceutical Industries,4.1,Pharma,Mumbai,10k-50k Employees
+82,Ujjivan Small Finance Bank,4.1,Banking,Bangalore/Bengaluru,10k-50k Employees
+83,Muthoot Finance,3.6,NBFC,Kochi/Cochin,10k-50k Employees
+84,Max Life Insurance,4.2,Insurance,Gurgaon/Gurugram,10k-50k Employees
+85,Aurobindo Pharma,4.0,Pharma,Hyderabad/Secunderabad,10k-50k Employees
+86,Tata Projects,4.2,Engineering & Construction,Mumbai,5k-10k Employees
+87,Home Credit Finance,4.1,Financial Services,Gurugram,10k-50k Employees
+88,KPMG India,3.6,Management Consulting,Bangalore / Bengaluru,10k-50k Employees
+89,Shapoorji Pallonji Group,4.2,Engineering & Construction,Mumbai,5k-10k Employees
+90,Oracle,3.9,Software Product,Austin,50k-1 Lakh Employees
+91,OPPO,3.9,Consumer Electronics & Appliances,Dongguan,10k-50k Employees
+92,L&T Construction,4.0,Engineering & Construction,Chennai,5k-10k Employees
+93,eClerx,3.4,IT Services & Consulting,Mumbai,10k-50k Employees
+94,Capgemini Technology Services India Limited,4.0,IT Services & Consulting,Bangalore / Bengaluru,1 Lakh+ Employees
+95,Apollo Hospitals,4.1,Healthcare,Chennai,10k-50k Employees
+96,Ashok Leyland,4.1,Automobile,Chennai,5k-10k Employees
+97,JLL,4.2,Real Estate,Mumbai,10k-50k Employees
+98,Siemens,4.2,Industrial Automation,Munich,5k-10k Employees
+99,Vivo,4.1,Consumer Electronics & Appliances,Gurgaon/Gurugram,5k-10k Employees
+100,Omega Healthcare,3.8,Healthcare,Bangalore / Bengaluru,10k-50k Employees
+101,Megha Engineering & Infrastructures,4.0,Engineering & Construction,Ahmedabad,5k-10k Employees
+102,JustDial,3.6,Internet,Ahmedabad,10k-50k Employees
+103,First Source,3.8,BPO,Ahmedabad,10k-50k Employees
+104,Hero MotoCorp,4.2,Automobile,Ahmedabad,5k-10k Employees
+105,Bajaj Allianz Life Insurance,4.1,Insurance,Ahmedabad,10k-50k Employees
+106,Mahindra & Mahindra Financial Services,4.3,NBFC,Ahmedabad,10k-50k Employees
+107,D Mart,3.9,Retail,Ahmedabad,10k-50k Employees
+108,Cyient,3.8,IT Services & Consulting,Ahmedabad,10k-50k Employees
+109,ICICI Lombard General Insurance Company,3.8,Insurance,Ahmedabad,10k-50k Employees
+110,Coforge,3.5,IT Services & Consulting,Ahmedabad,10k-50k Employees
+111,BigBasket,4.0,Internet,Ahmedabad,10k-50k Employees
+112,Indiamart Intermesh,3.6,Internet,Ahmedabad,5k-10k Employees
+113,Virtusa Consulting Services,3.8,IT Services & Consulting,Ahmedabad,10k-50k Employees
+114,Equitas Small Finance Bank,4.4,Banking,Ahmedabad,10k-50k Employees
+115,TVS Motor,4.0,Automobile,Ahmedabad,5k-10k Employees
+116,Manappuram Finance,3.9,NBFC,Ahmedabad,10k-50k Employees
+117,GlobalLogic,3.7,IT Services & Consulting,Ahmedabad,10k-50k Employees
+118,UST,3.8,IT Services & Consulting,Ahmedabad,10k-50k Employees
+119,Hewlett-Packard Enterprise,4.3,IT Services & Consulting,Ahmedabad,10k-50k Employees
+120,Nagarro,4.1,IT Services & Consulting,Munich,10k-50k Employees
+121,Cummins,4.3,Industrial Machinery,Columbus,1k-5k Employees
+122,Atos Syntel,3.6,IT Services & Consulting,Troy,5k-10k Employees
+123,SBI Cards & Payment Services,3.7,Financial Services,Gurgaon/Gurugram,1k-5k Employees
+124,IQVIA,4.0,Clinical Research,Durham,10k-50k Employees
+125,Bosch Global Software Technologies,4.1,IT Services & Consulting,Gerlingen,10k-50k Employees
+126,Reliance Communications,3.9,Telecom,Navi Mumbai,201-500 Employees
+127,Bosch,4.3,Auto Components,Gerlingen,5k-10k Employees
+128,Cholamandalam Investment & Finance,4.0,NBFC,Chennai,10k-50k Employees
+129,SMFG India Credit,4.1,NBFC,Mumbai,10k-50k Employees
+130,Ekart Logistics,4.1,Logistics,San Francisco,1k-5k Employees
+131,BNY Mellon,4.1,Investment Banking / Venture Capital / Private Equity,New York City,10k-50k Employees
+132,Schneider Electric,4.1,Industrial Automation,Paris,10k-50k Employees
+133,Hyundai Motor,4.4,Automobile,Seoul,10k-50k Employees
+134,Oyo Rooms,3.4,Hospitality,Gurgaon,1k-5k Employees
+135,L&T Technology Services,3.4,IT Services & Consulting,Vadodara/Baroda,10k-50k Employees
+136,Amdocs,4.0,Software Product,Chesterfield,10k-50k Employees
+137,CBRE,4.2,Real Estate,Los Angeles,10k-50k Employees
+138,BT Group,4.1,Telecom,London,10k-50k Employees
+139,State Bank of India,3.7,Banking,Mumbai,1 Lakh+ Employees
+140,JBM Group,4.0,Auto Components,Gurgaon/Gurugram,1k-5k Employees
+141,Swiggy,3.9,Internet,Bangalore,5k-10k Employees
+142,Ecom Express,4.1,Logistics,Gurgaon,10k-50k Employees
+143,Dell,4.2,Consumer Electronics & Appliances,Round Rock,10k-50k Employees
+144,SBI Life Insurance Company,3.8,Insurance,Mumbai,10k-50k Employees
+145,Bajaj Auto,3.8,Automobile,Pune,5k-10k Employees
+146,Optum,4.0,Healthcare,Prairie,10k-50k Employees
+147,Future Group,4.3,Retail,Mumbai,10k-50k Employees
+148,Nagarjuna Construction Company,4.1,Engineering & Construction,Hyderabad/Secunderabad,5k-10k Employees
+149,KEC International,4.1,Engineering & Construction,Mumbai,5k-10k Employees
+150,Piramal Capital Housing Finance,4.2,NBFC,Mumbai,1k-5k Employees
+151,Aditya Birla Fashion and Retail,4.2,Fashion & Textile,Mumbai,10k-50k Employees
+152,Muthoot Fincorp,4.0,NBFC,Trivandrum/Thiruvananthapuram,10k-50k Employees
+153,Royal Enfield,4.2,Automobile,Gurgaon/Gurugram,5k-10k Employees
+154,Viatris,4.2,Pharma,Canonsburg,10k-50k Employees
+155,L&T Finance,4.0,NBFC,Mumbai,10k-50k Employees
+156,Tata Communications,4.1,Telecom,Mumbai,5k-10k Employees
+157,Samvardhana Motherson Group,3.8,Auto Components,Noida,1k-5k Employees
+158,Kogta Financial India Limited,4.8,NBFC,Jaipur,1k-5k Employees
+159,LG Electronics,4.0,Consumer Electronics & Appliances,Seoul,1k-5k Employees
+160,Intas Pharmaceuticals,4.1,Pharma,Ahmedabad,10k-50k Employees
+161,John Deere,4.3,Industrial Machinery,Moline,5k-10k Employees
+162,Varun Beverages,4.0,Beverage,Gurgaon/Gurugram,5k-10k Employees
+163,Godrej & Boyce Manufacturing,3.9,Engineering & Construction,Mumbai,10k-50k Employees
+164,Persistent Systems,3.8,IT Services & Consulting,Pune,10k-50k Employees
+165,Randstad,3.9,Recruitment,Chennai,5k-10k Employees
+166,Thermax Limited,4.2,Industrial Machinery,Pune,1k-5k Employees
+167,Hetero Drugs,3.8,Pharma,Hyderabad/Secunderabad,1k-5k Employees
+168,Havells,4.1,Electrical Equipment,Noida,5k-10k Employees
+169,Macleods Pharmaceuticals,3.7,Pharma,Mumbai,10k-50k Employees
+170,Deutsche Bank,4.1,Banking,Frankfurt,10k-50k Employees
+171,CARS24,3.6,Internet,Gurgaon,5k-10k Employees
+172,Sodexo,4.1,Facility Management Services,Issy les Moulineaux,10k-50k Employees
+173,Whitehat jr,3.5,EdTech,Mumbai,5k-10k Employees
+174,Subros,3.9,Auto Components,Noida,1k-5k Employees
+175,Abbott Healthcare,4.1,Pharma,Illinois City,10k-50k Employees
+176,Team Lease,3.9,Recruitment,Bangalore/Bengaluru,1k-5k Employees
+177,VE Commercial Vehicles,4.0,Automobile,Gurgaon/Gurugram,1k-5k Employees
+178,Ford Motor,4.4,Automobile,Dearborn,5k-10k Employees
+179,Indian Oil Corporation,4.4,Oil & Gas,Delhi/NCR,10k-50k Employees
