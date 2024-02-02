@@ -1,0 +1,17 @@
+Scraping data from "Images"
+
+-> Steps you can follow:
+1. Send a Request to the Website:
+ * Use the requests library to send a GET request to the website and retrieve the HTML content.
+
+2. Parse HTML with BeautifulSoup:
+* Parse the HTML content using BeautifulSoup to navigate and extract information.
+
+3. Find Image Tags:
+* Locate the image tags in the HTML. Images are often represented using the `<img>` tag.
+
+4. Extract Image URLs:
+* Extract the src attribute from each image tag to get the URL of the image.
+
+5. Download Images:
+* Use the requests library again to download the images. Save the images to your local machine.
