@@ -1,0 +1,5 @@
+The following topics were covered:
+
+- Overview of unsupervised learning algorithms in Scikit-learn
+- Clustering algorithms: K Means, Hierarchical clustering etc.
+- Dimensionality reduction (PCA) 
