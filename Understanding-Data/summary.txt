@@ -1,0 +1,11 @@
+# Cheatcode to Exploratory Data Analysis (EDA)
+
+It is an approach to analyzing and visualizing data sets to summarize their main characteristics, often with the help of statistical graphics and other data visualization methods. The primary goal of EDA is to uncover patterns, relationships, anomalies, and trends in the data, providing insights that can guide further analysis or decision-making processes.
+
+Types of Exploratory Data Analysis
+
+-- There are three main types of EDA:
+
+* Univariate 
+* Bivariate 
+* Multivariate 
