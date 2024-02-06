@@ -1,0 +1,61 @@
+ProductID,ProductName,Category,Price,CustomerRating,PromotionType,CustomerAge,ShippingTime,CustomerSatisfaction,ShippingDate
+001,Smartphone X,Electronics,500,4.2,Discount,Young,2,4,02/15/2022
+002,Fashion Jacket,Clothing,80,4.5,Bundle Offer,Adult,3,5,08/20/2021
+003,Kitchen Blender,Home & Kitchen,120,3.8,None,Senior,4,3,05/10/2022
+004,Running Shoes,Sports,60,4.0,Discount,Young,2,4,11/03/2022
+005,LED TV,Electronics,700,4.3,None,Adult,3,4,06/27/2021
+006,Makeup Kit,Beauty,45,4.1,Bundle Offer,Young,2,4,09/14/2021
+007,Home Decor Items,Home & Kitchen,25,3.5,None,Senior,4,2,07/08/2022
+008,Smartwatch,Electronics,150,4.4,None,Young,2,5,03/22/2023
+009,Sneakers,Sports,40,3.9,Discount,Adult,3,3,12/18/2021
+010,Instant Pot,Home & Kitchen,90,4.6,Bundle Offer,Senior,4,5,01/30/2022
+011,Laptop Bag,Electronics,30,4.0,None,Young,2,3,08/07/2022
+012,Yoga Mat,Sports,20,4.2,None,Adult,3,4,06/15/2021
+013,Blow Dryer,Beauty,50,3.7,None,Senior,4,2,04/02/2022
+014,Coffee Maker,Home & Kitchen,70,4.5,None,Young,2,5,10/12/2021
+015,Wireless Earbuds,Electronics,40,4.3,Discount,Adult,3,4,03/08/2023
+016,Running Gear,Sports,55,4.1,Bundle Offer,Senior,4,4,09/01/2021
+017,Skin Care Set,Beauty,30,3.8,None,Young,2,3,05/26/2022
+018,Desk Organizer,Home & Kitchen,15,4.2,None,Adult,3,4,07/16/2021
+019,Tablet,Electronics,120,4.0,None,Senior,4,4,04/05/2022
+020,Workout Clothes,Sports,25,4.4,Discount,Young,2,5,12/30/2022
+021,Headphones,Electronics,35,4.2,Bundle Offer,Adult,3,4,08/17/2021
+022,Winter Coat,Clothing,120,4.0,None,Senior,4,4,01/12/2023
+023,Toaster,Home & Kitchen,20,3.9,Discount,Young,2,3,10/26/2022
+024,Perfume,Beauty,55,4.1,None,Adult,3,4,02/21/2022
+025,Backpack,Accessories,30,3.7,None,Senior,4,2,07/11/2021
+026,Smart Home Device,Electronics,90,4.5,Discount,Young,2,5,04/24/2022
+027,Running Shorts,Sports,15,4.2,None,Adult,3,4,11/08/2021
+028,Compact Mirror,Beauty,10,3.8,Bundle Offer,Senior,4,2,09/03/2021
+029,Desk Lamp,Home & Kitchen,25,4.0,None,Young,2,4,05/19/2022
+030,Gaming Console,Electronics,300,4.6,None,Adult,3,5,01/05/2023
+201,Wireless Mouse,Electronics,15,4.2,None,Young,2,4,02/15/2022
+202,Comforter Set,Home & Kitchen,80,4.5,Bundle Offer,Adult,3,5,08/20/2021
+203,Running Watch,Sports,70,3.8,Discount,Senior,4,3,05/10/2022
+204,Back Massager,Health & Wellness,40,4.0,None,Young,2,4,11/03/2022
+205,Stylish Sunglasses,Accessories,25,4.3,None,Adult,3,4,06/27/2021
+206,Culinary Knife Set,Kitchen,60,4.1,None,Senior,4,3,09/14/2021
+207,Gaming Keyboard,Electronics,50,3.5,None,Young,2,2,07/08/2022
+208,Outdoor Tent,Outdoor & Recreation,100,4.4,Discount,Adult,3,5,03/22/2023
+209,Travel Backpack,Accessories,30,3.9,Discount,Senior,4,3,12/18/2021
+210,Air Fryer,Home & Kitchen,75,4.6,None,Young,2,5,01/30/2022
+211,Fitness Tracker,Health & Wellness,35,4.0,None,Adult,3,4,08/07/2022
+212,Portable Charger,Electronics,20,4.2,None,Senior,4,2,06/15/2021
+213,Bike Helmet,Outdoor & Recreation,45,3.7,Bundle Offer,Young,2,3,04/02/2022
+214,Spiralizer,Kitchen,15,4.5,Discount,Adult,3,4,10/12/2021
+215,Bluetooth Speaker,Electronics,50,4.3,Bundle Offer,Senior,4,4,03/08/2023
+216,Yoga Block,Fitness & Yoga,10,3.8,None,Young,2,2,09/01/2021
+217,Tea Set,Home & Kitchen,25,4.0,None,Adult,3,3,05/26/2022
+218,Hiking Boots,Outdoor & Recreation,60,4.4,None,Senior,4,4,07/16/2021
+219,Lunch Box,Kitchen,15,3.9,None,Young,2,2,04/05/2022
+220,Smart Thermostat,Smart Home,90,4.1,Discount,Adult,3,4,12/30/2022
+221,Resistance Bands,Fitness & Yoga,12,4.2,None,Senior,4,3,08/17/2021
+222,Carry-on Luggage,Travel & Accessories,70,4.0,Bundle Offer,Young,2,5,01/12/2023
+223,Plant-based Protein,Health & Wellness,25,3.9,None,Adult,3,2,10/26/2022
+224,Sleeping Bag,Outdoor & Recreation,40,4.5,None,Senior,4,4,02/21/2022
+225,USB Flash Drive,Electronics,8,4.1,Discount,Young,2,3,07/11/2021
+226,Camping Stove,Outdoor & Recreation,30,3.8,None,Adult,3,2,04/24/2022
+227,Protein Powder,Health & Wellness,20,4.0,None,Senior,4,3,11/08/2021
+228,Desk Fan,Home & Kitchen,18,4.3,Bundle Offer,Young,2,4,09/03/2021
+229,Travel Pillow,Travel & Accessories,15,3.7,None,Adult,3,2,05/19/2022
+230,Massage Gun,Health & Wellness,50,4.2,Discount,Senior,4,4,01/05/2023
