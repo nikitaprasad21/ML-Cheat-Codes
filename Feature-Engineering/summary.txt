@@ -1,0 +1,5 @@
+Key Takeaways
+
+1. The fit() method helps in fitting the training dataset into an estimator (ML algorithms).
+2. The transform() helps in transforming the data into a more suitable form for the model.
+3. The fit_transform() method combines the functionalities of both fit() and transform().
