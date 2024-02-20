@@ -1,0 +1,11 @@
+*Note: GitHub repo to check out the Jupyter notebook*
+
+Frequently Asked Questions
+
+Q1. How should you handle outliers?
+
+A. In conclusion, identifying and addressing outliers is really important in data analysis. These data anomalies can skew results, leading to inaccurate insights and decisions. 
+
+By employing robust detection techniques to handle outliers effectively, through visualization or statistical methods, to enhance the integrity of analyses and unlock hidden patterns within our data. 
+
+Apply appropriate techniques like trimming or capping to mitigate their influence, and contribute to more informed and reliable decision-making processes.
