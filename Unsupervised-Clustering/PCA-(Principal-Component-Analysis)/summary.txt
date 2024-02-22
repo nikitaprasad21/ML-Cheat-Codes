@@ -1,0 +1,9 @@
+# PCA(Principal Component Analysis)
+
+It is a statistical procedure that uses an orthogonal transformation that converts a set of correlated variables to a set of uncorrelated variables.
+
+It tends to find the direction of maximum variation (spread) in data. PCA is more useful when dealing with 3 or higher-dimensional data.
+
+PCA can be used for anomaly detection and outlier detection because they will not be part of the data as it would be considered noise by PCA.
+
+Moreover, Principal Component Analysis (PCA) is an unsupervised learning algorithm technique used to examine the interrelations among a set of variables. 
