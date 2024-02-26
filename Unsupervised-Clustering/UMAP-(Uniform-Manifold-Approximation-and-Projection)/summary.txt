@@ -1,0 +1,18 @@
+-- Uniform Manifold Approximation and Projection (UMAP)
+
+It is a dimension reduction technique that can preserve both of the local, and global data structure as compared to t-SNE. UMAP is a versatile and widely used technique.
+
+-- UMAP parameters
+
+We have some parameters that we can adjust depending the data that we are using. For example in the code above we use only three parameters.
+
+* n_components: Specifies the dimensionality of the low-dimensional embedding.
+By default, it is 2,for visualization in a 2D plot. However, you can choose a higher value to obtain a higher-dimensional embedding if needed.
+
+* n_neighbors: This parameter determines the number of nearest neighbors used to construct the neighborhood graph. Increasing n_neighbors can capture more global structure, but may also increase computation time. A typical value is between 5 and 50, depending on the size and density of the dataset.
+
+* min_dist: It controls the minimum distance between points in the low-dimensional embedding. A smaller value of min_dist allows for tighter clustering, but can result in overfitting and crowded visualizations. Increasing min_dist encourages more even spacing between points.
+
+* metric: UMAP supports various distance metrics to measure similarity between data points in the high-dimensional space. Common choices include Euclidean distance(default), Manhattan distance, and others.
+
+* random_state: if we need to have reproducibility in our results, we can set a seed by using random_state.
