@@ -1,0 +1,3 @@
+In a Voting Ensemble, multiple classifiers are combined to make predictions collectively. 
+
+The Voting Classifier aggregates the predictions from individual models using either Hard Voting (simple majority) or Soft Voting (weighted average of probabilities).
